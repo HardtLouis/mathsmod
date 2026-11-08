@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+	"# #",
+	"#o#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brick"
+    },
+	"o": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "mathsmod:caster",
+    "count": 1
+  }
+}

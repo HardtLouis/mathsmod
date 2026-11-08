@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/fire_floor",
+    "textures": {
+        "particle": "mathsmod:blocks/fire",
+        "fire": "mathsmod:blocks/fire"
+    }
+}

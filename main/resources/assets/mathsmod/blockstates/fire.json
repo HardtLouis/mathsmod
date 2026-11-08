@@ -1,0 +1,10 @@
+{
+    "multipart": [
+	{
+            "apply": [
+                { "model": "mathsmod:fire_1" },
+                { "model": "mathsmod:fire_0" }
+            ]
+    }
+	]
+}

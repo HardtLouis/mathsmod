@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#a#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mathsmod:shark_tooth"
+    },
+	"a": {
+      "item": "mathsmod:kurayum_sword"
+    }
+  },
+  "result": {
+    "item": "mathsmod:assassin_rapier"
+  }
+}

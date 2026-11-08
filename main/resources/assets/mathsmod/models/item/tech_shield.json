@@ -1,0 +1,19 @@
+{
+    "parent": "item/generated",
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ 0, -90, 55 ],
+            "translation": [ 2, 0, 0 ],
+            "scale": [ 1.0, 1.0, 1.0 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, -90, 25 ],
+            "translation": [ 2, 0, 0 ],
+            "scale": [ 1.1, 1.1, 1.1 ]
+        }
+    },
+    "textures": {
+        "layer0": "mathsmod:items/tech_shield"
+    }
+}
+

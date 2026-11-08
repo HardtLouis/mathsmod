@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+	"#o#",
+	" # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+	"o": {
+      "item": "minecraft:dirt",
+	  "data": 0
+    }
+  },
+  "result": {
+    "item": "mathsmod:issou_disk",
+    "count": 1
+  }
+}

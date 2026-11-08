@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#a#",
+    "#i#"
+  ],
+  "key": {
+    "#": {
+      "item": "mathsmod:kurayum_ingot"
+    },
+	"a": {
+      "item": "minecraft:tnt"
+    },
+	"i": {
+      "item": "mathsmod:rocket"
+    }
+  },
+  "result": {
+    "item": "mathsmod:a_missile"
+  }
+}

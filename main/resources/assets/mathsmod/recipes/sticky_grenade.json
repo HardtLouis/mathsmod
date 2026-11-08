@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i#i",
+	"#o#",
+	"i#i"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+	"o": {
+      "item": "minecraft:gunpowder"
+    },
+	"i": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "item": "mathsmod:sticky_grenade",
+    "count": 1
+  }
+}

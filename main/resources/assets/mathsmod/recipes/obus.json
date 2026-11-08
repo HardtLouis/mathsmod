@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+	"#o#",
+	" # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+	"o": {
+      "item": "minecraft:tnt"
+    }
+  },
+  "result": {
+    "item": "mathsmod:obus",
+    "count": 1
+  }
+}

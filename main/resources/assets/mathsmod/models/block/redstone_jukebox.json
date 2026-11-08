@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_top",
+    "textures": {
+        "top": "mathsmod:blocks/redstone_jukebox_top",
+        "side": "minecraft:blocks/jukebox_side"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "mathsmod:stabilizer", "y": 270 },
+        "facing=south": { "model": "mathsmod:stabilizer", "y": 90 },
+        "facing=west":  { "model": "mathsmod:stabilizer", "y": 180 },
+        "facing=east":  { "model": "mathsmod:stabilizer" }
+    }
+}

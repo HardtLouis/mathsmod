@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " io",
+	" ei",
+	"#  "
+  ],
+  "key": {
+    "#": {
+      "item": "mathsmod:tfosium_ingot"
+    },
+	"o": {
+      "item": "mathsmod:kurayum_ingot"
+    },
+	"i": {
+      "item": "mathsmod:silver_ingot"
+    },
+	"e": {
+      "item": "mathsmod:eye_of_blal"
+    }
+  },
+  "result": {
+    "item": "mathsmod:copraveg_rod",
+    "count": 1
+  }
+}

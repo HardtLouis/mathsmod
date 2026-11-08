@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i o",
+    "# #",
+    "aaa"
+  ],
+  "key": {
+    "i": {
+      "item": "mathsmod:kurayum_block"
+    },
+	"#": {
+      "item": "minecraft:iron_bars"
+    },
+	"o": {
+      "item": "mathsmod:tfosium_block"
+    },
+	"a": {
+      "item": "mathsmod:silver_ingot"
+    }
+  },
+  "result": {
+    "item": "mathsmod:drone_launcher"
+  }
+}

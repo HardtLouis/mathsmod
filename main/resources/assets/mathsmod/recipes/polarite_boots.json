@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+	"x u"
+  ],
+  "key": {
+    "#": {
+      "item": "mathsmod:polarite_ingot"
+    },
+	"x": {
+      "item": "mathsmod:ice_rod"
+    },
+	"u": {
+      "item": "mathsmod:crusher"
+    }
+  },
+  "result": {
+    "item": "mathsmod:polarite_boots",
+    "count": 1
+  }
+}

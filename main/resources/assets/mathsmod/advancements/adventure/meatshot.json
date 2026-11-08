@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "mathsmod:shotgun"
+        },
+        "title": {
+            "translate": "advancements.meatshot.title"
+        },
+        "description": {
+            "translate": "advancements.meatshot.description"
+        },
+        "frame": "goal"
+    },
+	"parent": "adventure/root",
+    "criteria": {
+        "meatshot": {
+            "trigger": "minecraft:meatshot"
+        }
+    }
+}

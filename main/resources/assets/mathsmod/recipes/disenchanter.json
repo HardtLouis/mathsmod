@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#a#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mathsmod:kurayum_ingot"
+    },
+	"a": {
+      "item": "mathsmod:tfosium_block"
+    }
+  },
+  "result": {
+    "item": "mathsmod:disenchanter"
+  }
+}

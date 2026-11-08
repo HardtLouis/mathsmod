@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#i#",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:gold_ingot"
+    },
+	"#": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "mathsmod:ammo_box"
+  }
+}

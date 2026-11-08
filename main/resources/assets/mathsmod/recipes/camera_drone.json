@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "aia",
+    "aia"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+	"#": {
+      "item": "minecraft:iron_bars"
+    },
+	"a": {
+      "item": "mathsmod:silver_ingot"
+    }
+  },
+  "result": {
+    "item": "mathsmod:camera_drone"
+  }
+}

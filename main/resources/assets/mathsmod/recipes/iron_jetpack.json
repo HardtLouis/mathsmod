@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "aoa",
+    "x#q"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+	"o": {
+      "item": "minecraft:iron_block"
+    },
+	"#": {
+      "item": "minecraft:redstone"
+    },
+	"x": {
+      "item": "minecraft:lava_bucket"
+    },
+	"q": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "mathsmod:iron_jetpack"
+  }
+}

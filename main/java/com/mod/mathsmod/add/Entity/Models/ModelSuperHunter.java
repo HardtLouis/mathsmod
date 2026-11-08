@@ -1,0 +1,71 @@
+package com.mod.mathsmod.add.Entity.Models;
+
+import com.mod.mathsmod.add.Entity.Entity.EntitySuperHunter;
+import com.mod.mathsmod.add.items.guns.ItemGun;
+
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.model.ModelBiped;
+import net.minecraft.entity.Entity;
+import net.minecraft.init.Blocks;
+import net.minecraft.item.ItemStack;
+
+public class ModelSuperHunter extends ModelBiped
+{
+
+    public ModelSuperHunter(float modelSize) 
+    {
+    	super(modelSize);
+    }
+ 
+    @Override
+    public void setRotationAngles(float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch, float scaleFactor, Entity entityIn)
+    {
+        super.setRotationAngles(limbSwing, limbSwingAmount, ageInTicks, netHeadYaw, headPitch, scaleFactor, entityIn);
+        
+        if(entityIn instanceof EntitySuperHunter)
+        {
+        	EntitySuperHunter entity = (EntitySuperHunter) entityIn;
+        	
+        	if(entity.getCharge() == 0)
+        	{
+        		if(entity.getHeldItemMainhand().getItem() instanceof ItemGun)
+            	{
+            		ItemGun gun = (ItemGun) entity.getHeldItemMainhand().getItem();
+					ItemStack stack = entity.getHeldItemMainhand();
+					float partialTicks = Minecraft.getMinecraft().getRenderPartialTicks();
+            		
+            		if(gun != null)
+        	        {
+            			if((!gun.scopeToShoot()) || gun.getUsed(entity.getHeldItemMainhand()) != 0)
+                    	{
+            				if(gun.rightArmRotation(entityIn, stack, partialTicks) != null)
+    	    	        	{
+    	    	        		this.bipedRightArm.rotateAngleX = gun.rightArmRotation(entityIn, stack, partialTicks).x + headPitch * 0.017453292F;
+    	    	            	this.bipedRightArm.rotateAngleY = gun.rightArmRotation(entityIn, stack, partialTicks).y + netHeadYaw * 0.017453292F;
+    	    	            	this.bipedRightArm.rotateAngleZ = gun.rightArmRotation(entityIn, stack, partialTicks).z;
+    	    	        	}
+    	    	        	if(gun.leftArmRotation(entityIn, stack, partialTicks) != null)
+    	    	        	{
+    	    	        		this.bipedLeftArm.rotateAngleX = gun.leftArmRotation(entityIn, stack, partialTicks).x + headPitch * 0.017453292F;
+    	    	            	this.bipedLeftArm.rotateAngleY = gun.leftArmRotation(entityIn, stack, partialTicks).y + netHeadYaw * 0.017453292F;
+    	    	            	this.bipedLeftArm.rotateAngleZ = gun.leftArmRotation(entityIn, stack, partialTicks).z;
+    	    	        	}
+                    	}
+            			else if(!gun.isPistol())
+            			{
+            				this.bipedRightArm.rotateAngleX = -63 * 0.017453292F;
+                        	this.bipedRightArm.rotateAngleY = -51 * 0.017453292F;
+                        	this.bipedLeftArm.rotateAngleX = -55 * 0.017453292F;
+            			}
+            			
+        	        }
+            	}
+        	}
+        	if(entity.deathTime > 0)
+        	{
+        		this.bipedRightArm.rotateAngleZ = 15 * 0.017453292F;
+        		this.bipedLeftArm.rotateAngleZ = -15 * 0.017453292F;
+        	}
+        }
+    }
+}

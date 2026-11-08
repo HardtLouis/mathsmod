@@ -1,0 +1,125 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "steve": "mathsmod:entity/bot/bot"
+		},
+		"display": {
+        "thirdperson_righthand": {
+            "scale": [ 0.3, 0.3, 0.3 ]
+        },
+        "thirdperson_lefthand": {
+            "scale": [ 0.3, 0.3, 0.3 ]
+        },
+        "firstperson_righthand": {
+            "scale": [ 0.3, 0.3, 0.3 ]
+        },
+        "firstperson_lefthand": {
+            "scale": [ 0.3, 0.3, 0.3 ]
+        }
+    },
+    "display": {
+        "gui": {
+			"rotation": [ 0, 135, 0 ],
+			"translation": [ 0, -3.6, 0 ],
+            "scale": [ 0.5, 0.5, 0.5 ]
+        },
+        "ground": {
+            "scale": [ 0.3, 0.3, 0.3 ]
+        },
+        "fixed": {
+            "scale": [ 0.3, 0.3, 0.3 ]
+        },
+        "head": {
+            "scale": [ 0.3, 0.3, 0.3 ]
+        },
+        "firstperson_righthand": {
+            "scale": [ 0.3, 0.3, 0.3 ]
+        },
+        "thirdperson_righthand": {
+            "scale": [ 0.3, 0.3, 0.3 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 4, 0, 6 ], 
+            "to": [ 8, 12, 10 ], 
+            "rotation": { "origin": [ 8.0, 12.0, 8.0 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#steve", "uv": [ 0, 5, 1, 8 ] },
+                "east": { "texture": "#steve", "uv": [ 1, 5, 2, 8 ] },
+                "south": { "texture": "#steve", "uv": [ 2, 5, 3, 8 ] },
+                "west": { "texture": "#steve", "uv": [ 3, 5, 4, 8 ] },
+                "up": { "texture": "#steve", "uv": [ 1, 4, 2, 5 ] },
+                "down": { "texture": "#steve", "uv": [ 2, 4, 3, 5 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 8, 0, 6 ], 
+            "to": [ 12, 12, 10 ], 
+            "rotation": { "origin": [ 8.0, 12.0, 8.0 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#steve", "uv": [ 0, 5, 1, 8 ] },
+                "east": { "texture": "#steve", "uv": [ 1, 5, 2, 8 ] },
+                "south": { "texture": "#steve", "uv": [ 2, 5, 3, 8 ] },
+                "west": { "texture": "#steve", "uv": [ 3, 5, 4, 8 ] },
+                "up": { "texture": "#steve", "uv": [ 1, 4, 2, 5 ] },
+                "down": { "texture": "#steve", "uv": [ 2, 4, 3, 5 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 4, 12, 6 ], 
+            "to": [ 12, 24, 10 ], 
+            "faces": {
+                "north": { "texture": "#steve", "uv": [ 5, 5, 7, 8 ] },
+                "east": { "texture": "#steve", "uv": [ 4, 5, 5, 8 ] },
+                "south": { "texture": "#steve", "uv": [ 7, 5, 9, 8 ] },
+                "west": { "texture": "#steve", "uv": [ 9, 5, 10, 8 ] },
+                "down": { "texture": "#steve", "uv": [ 7, 4, 9, 5 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 12, 12, 6 ], 
+            "to": [ 16, 24, 10 ], 
+            "rotation": { "origin": [ 8.0, 22.0, 8.0 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#steve", "uv": [ 10, 5, 11, 8 ] },
+                "east": { "texture": "#steve", "uv": [ 11, 5, 12, 8 ] },
+                "south": { "texture": "#steve", "uv": [ 12, 5, 13, 8 ] },
+                "west": { "texture": "#steve", "uv": [ 13, 5, 14, 8 ] },
+                "up": { "texture": "#steve", "uv": [ 11, 4, 12, 5 ] },
+                "down": { "texture": "#steve", "uv": [ 12, 4, 13, 5 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 0, 12, 6 ], 
+            "to": [ 4, 24, 10 ], 
+            "rotation": { "origin": [ 8.0, 22.0, 8.0 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#steve", "uv": [ 10, 5, 11, 8 ] },
+                "east": { "texture": "#steve", "uv": [ 11, 5, 12, 8 ] },
+                "south": { "texture": "#steve", "uv": [ 12, 5, 13, 8 ] },
+                "west": { "texture": "#steve", "uv": [ 13, 5, 14, 8 ] },
+                "up": { "texture": "#steve", "uv": [ 11, 4, 12, 5 ] },
+                "down": { "texture": "#steve", "uv": [ 12, 4, 13, 5 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 4, 24, 4 ], 
+            "to": [ 12, 32, 12 ], 
+            "faces": {
+                "north": { "texture": "#steve", "uv": [ 2, 2, 4, 4 ] },
+                "east": { "texture": "#steve", "uv": [ 0, 2, 2, 4 ] },
+                "south": { "texture": "#steve", "uv": [ 6, 2, 8, 4 ] },
+                "west": { "texture": "#steve", "uv": [ 4, 2, 6, 4 ] },
+                "up": { "texture": "#steve", "uv": [ 2, 0, 4, 2 ] },
+                "down": { "texture": "#steve", "uv": [ 4, 0, 6, 2 ] }
+            }
+        }
+    ]
+}

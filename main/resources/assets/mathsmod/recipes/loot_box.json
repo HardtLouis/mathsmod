@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#o#",
+	"o#o",
+	"#o#"
+  ],
+  "key": {
+    "#": {
+      "item": "mathsmod:kurayum_ingot"
+    },
+	"o": {
+      "item": "mathsmod:polarite_ingot",
+	  "data": 0
+    }
+  },
+  "result": {
+    "item": "mathsmod:loot_box",
+    "count": 1
+  }
+}

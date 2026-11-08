@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+	"ioi",
+	"###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stone_slab",
+	  "data": 0
+    },
+	"o": {
+      "item": "minecraft:diamond"
+    },
+	"i": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "mathsmod:entity_projector",
+    "count": 2
+  }
+}

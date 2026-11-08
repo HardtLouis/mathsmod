@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "mathsmod:blocks/ore_loot_box"
+    }
+}
+

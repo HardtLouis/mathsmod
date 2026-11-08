@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#a#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mathsmod:thorium_block"
+    },
+	"a": {
+      "item": "mathsmod:b_missile"
+    }
+  },
+  "result": {
+    "item": "mathsmod:t_missile"
+  }
+}

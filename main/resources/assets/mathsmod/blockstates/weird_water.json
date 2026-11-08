@@ -1,0 +1,120 @@
+  {
+ "forge_marker": 1,
+ "defaults": {
+  "model": "forge:fluid"
+ },
+ "variants": {
+  "level=0": [
+   {
+    "custom": {
+     "fluid": "weird_water"
+    }
+   }
+  ],
+  "level=1": [
+   {
+    "custom": {
+     "fluid": "weird_water"
+    }
+   }
+  ],
+  "level=2": [
+   {
+    "custom": {
+     "fluid": "weird_water"
+    }
+   }
+  ],
+  "level=3": [
+   {
+    "custom": {
+     "fluid": "weird_water"
+    }
+   }
+  ],
+  "level=4": [
+   {
+    "custom": {
+     "fluid": "weird_water"
+    }
+   }
+  ],
+  "level=5": [
+   {
+    "custom": {
+     "fluid": "weird_water"
+    }
+   }
+  ],
+  "level=6": [
+   {
+    "custom": {
+     "fluid": "weird_water"
+    }
+   }
+  ],
+  "level=7": [
+   {
+    "custom": {
+     "fluid": "weird_water"
+    }
+   }
+  ],
+  "level=8": [
+   {
+    "custom": {
+     "fluid": "weird_water"
+    }
+   }
+  ],
+  "level=9": [
+   {
+    "custom": {
+     "fluid": "weird_water"
+    }
+   }
+  ],
+  "level=10": [
+   {
+    "custom": {
+     "fluid": "weird_water"
+    }
+   }
+  ],
+  "level=11": [
+   {
+    "custom": {
+     "fluid": "weird_water"
+    }
+   }
+  ],
+  "level=12": [
+   {
+    "custom": {
+     "fluid": "weird_water"
+    }
+   }
+  ],
+  "level=13": [
+   {
+    "custom": {
+     "fluid": "weird_water"
+    }
+   }
+  ],
+  "level=14": [
+   {
+    "custom": {
+     "fluid": "weird_water"
+    }
+   }
+  ],
+  "level=15": [
+   {
+    "custom": {
+     "fluid": "weird_water"
+    }
+   }
+  ]
+        }
+   }

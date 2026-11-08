@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "activated=true": { "model": "mathsmod:bear_trap_closed" },
+        "activated=false": { "model": "mathsmod:bear_trap_opened" }
+    }
+}

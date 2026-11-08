@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "minecraft:blocks/stone",
+        "top": "mathsmod:blocks/grassy_stone_top",
+        "side": "mathsmod:blocks/grassy_stone_side"
+    }
+}

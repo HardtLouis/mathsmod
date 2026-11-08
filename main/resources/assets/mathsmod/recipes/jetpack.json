@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "aoa",
+    "x#q"
+  ],
+  "key": {
+    "#": {
+      "item": "mathsmod:silver_ingot"
+    },
+	"o": {
+      "item": "mathsmod:silver_block"
+    },
+	"a": {
+      "item": "mathsmod:tfosium_ingot"
+    },
+	"x": {
+      "item": "minecraft:lava_bucket"
+    },
+	"q": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "mathsmod:basic_jetpack"
+  }
+}

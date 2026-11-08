@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mathsmod:cherry_planks"
+    }
+  },
+  "result": {
+    "item": "mathsmod:cherry_stairs",
+    "count": 4
+  }
+}

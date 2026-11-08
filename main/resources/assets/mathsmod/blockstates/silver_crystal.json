@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "facing=down": { "model": "mathsmod:silver_crystal", "x": 180 },
+        "facing=up": { "model": "mathsmod:silver_crystal", "x": 0 },
+        "facing=north": { "model": "mathsmod:silver_crystal", "x": 90},
+        "facing=south": { "model": "mathsmod:silver_crystal", "x": 90, "y": 180 },
+        "facing=west": { "model": "mathsmod:silver_crystal", "x": 90, "y":270 },
+        "facing=east": { "model": "mathsmod:silver_crystal", "x": 90, "y": 90 }
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "o",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "o": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "mathsmod:teleporters_binder"
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "mathsmod:gun_crafter" },
+        "facing=south": { "model": "mathsmod:gun_crafter", "y": 180 },
+        "facing=west":  { "model": "mathsmod:gun_crafter", "y": 270 },
+        "facing=east":  { "model": "mathsmod:gun_crafter", "y": 90 }
+    }
+}

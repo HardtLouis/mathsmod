@@ -1,0 +1,8 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "mathsmod:obj/sword.obj"
+  },
+  "variants": [{
+  }]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+	"iai"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:wool",
+	  "data": 14
+    },
+	"i": {
+      "item": "minecraft:string"
+    },
+	"a": {
+      "item": "mathsmod:tfosium_ingot"
+    }
+  },
+  "result": {
+    "item": "mathsmod:fake_explosive_belt",
+    "count": 1
+  }
+}

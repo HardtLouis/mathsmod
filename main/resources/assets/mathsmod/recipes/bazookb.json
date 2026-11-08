@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#a#",
+    " i "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_block"
+    },
+	"a": {
+      "item": "minecraft:redstone"
+    },
+	"i": {
+      "item": "minecraft:lever"
+    }
+  },
+  "result": {
+    "item": "mathsmod:bazookb"
+  }
+}

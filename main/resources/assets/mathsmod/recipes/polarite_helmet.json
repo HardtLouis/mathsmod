@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#x#",
+	"# #"
+  ],
+  "key": {
+    "#": {
+      "item": "mathsmod:polarite_ingot"
+    },
+	"x": {
+      "item": "mathsmod:slicer"
+    }
+  },
+  "result": {
+    "item": "mathsmod:polarite_helmet",
+    "count": 1
+  }
+}

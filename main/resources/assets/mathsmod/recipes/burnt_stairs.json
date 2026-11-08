@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mathsmod:burnt_planks"
+    }
+  },
+  "result": {
+    "item": "mathsmod:burnt_stairs",
+    "count": 4
+  }
+}

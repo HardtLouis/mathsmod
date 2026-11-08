@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x x",
+	"###"
+  ],
+  "key": {
+	"#": {
+      "item": "minecraft:iron_ingot"
+    },
+	"x": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "mathsmod:bulletproof_vest",
+    "count": 1
+  }
+}

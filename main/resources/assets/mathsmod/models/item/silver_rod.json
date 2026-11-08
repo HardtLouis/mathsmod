@@ -1,0 +1,14 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+        "layer0": "mathsmod:items/silver_rod_uncast"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "cast": 1
+            },
+            "model": "mathsmod:item/silver_rod_cast"
+        }
+    ]
+}

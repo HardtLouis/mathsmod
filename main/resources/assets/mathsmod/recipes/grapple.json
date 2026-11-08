@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i b",
+    "#bb",
+    "a b"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    },
+	"a": {
+      "item": "minecraft:lever"
+    },
+	"i": {
+      "item": "minecraft:slime_ball"
+    },
+	"b": {
+      "item": "mathsmod:iron_shard"
+    }
+  },
+  "result": {
+    "item": "mathsmod:grapple"
+  }
+}

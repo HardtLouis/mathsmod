@@ -1,0 +1,144 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "polarite_block": "mathsmod:blocks/polarite_block",
+        "silver_block": "mathsmod:blocks/silver_block",
+        "planks_oak": "minecraft:blocks/planks_oak"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, -3, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, -1, 1 ],
+            "scale": [ 0.8, 1.2, 0.8 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, -2, 1 ],
+            "scale": [ 1, 1.5, 1 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 7, 4, 7 ], 
+            "to": [ 9, 6, 9 ], 
+            "faces": {
+                "north": { "texture": "#silver_block", "uv": [ 5, 9, 7, 11 ] },
+                "east": { "texture": "#silver_block", "uv": [ 7, 5, 9, 7 ] },
+                "south": { "texture": "#silver_block", "uv": [ 6, 7, 8, 9 ] },
+                "west": { "texture": "#silver_block", "uv": [ 12, 10, 14, 12 ] },
+                "up": { "texture": "#silver_block", "uv": [ 6, 8, 8, 10 ] },
+                "down": { "texture": "#silver_block", "uv": [ 4, 6, 6, 8 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 7, 10, 7 ], 
+            "to": [ 9, 11, 9 ], 
+            "faces": {
+                "north": { "texture": "#silver_block", "uv": [ 5, 9, 7, 10 ] },
+                "east": { "texture": "#silver_block", "uv": [ 7, 5, 9, 7 ] },
+                "south": { "texture": "#silver_block", "uv": [ 6, 7, 8, 8 ] },
+                "west": { "texture": "#silver_block", "uv": [ 12, 10, 14, 11 ] },
+                "up": { "texture": "#silver_block", "uv": [ 6, 8, 8, 10 ] },
+                "down": { "texture": "#silver_block", "uv": [ 4, 6, 6, 8 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 7.5, 6, 7.5 ], 
+            "to": [ 8.5, 10, 8.5 ], 
+            "faces": {
+                "north": { "texture": "#planks_oak", "uv": [ 7, 6, 8, 10 ] },
+                "east": { "texture": "#planks_oak", "uv": [ 4, 4, 6, 6 ] },
+                "south": { "texture": "#planks_oak", "uv": [ 10, 9, 11, 13 ] },
+                "west": { "texture": "#planks_oak", "uv": [ 5, 8, 6, 12 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 7.4, 16, 4 ], 
+            "to": [ 8.6, 20.1, 9 ], 
+            "faces": {
+                "east": { "texture": "#polarite_block", "uv": [ 0, 0, 16, 16 ] },
+                "south": { "texture": "#polarite_block", "uv": [ 0, 0, 16, 16 ] },
+                "west": { "texture": "#polarite_block", "uv": [ 0, 0, 16, 16 ] },
+                "up": { "texture": "#polarite_block", "uv": [ 0, 0, 15.2, 16 ] },
+                "down": { "texture": "#polarite_block", "uv": [ 0, 0, 15.2, 16 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 7.5, 11, 7.5 ], 
+            "to": [ 8.5, 21, 8.5 ], 
+            "faces": {
+                "north": { "texture": "#planks_oak", "uv": [ 7, 6, 8, 16 ] },
+                "east": { "texture": "#planks_oak", "uv": [ 4, 4, 6, 6 ] },
+                "south": { "texture": "#planks_oak", "uv": [ 10, 9, 11, 16 ] },
+                "west": { "texture": "#planks_oak", "uv": [ 5, 8, 6, 16 ] },
+                "up": { "texture": "#planks_oak", "uv": [ 9, 7, 10, 8 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 7.4, 15.5, 3 ], 
+            "to": [ 8.6, 20.6, 4 ], 
+            "faces": {
+                "north": { "texture": "#polarite_block", "uv": [ 6, 1, 7, 15 ] },
+                "east": { "texture": "#polarite_block", "uv": [ 11, 1, 12, 15 ] },
+                "south": { "texture": "#polarite_block", "uv": [ 7, 1, 8, 15 ] },
+                "west": { "texture": "#polarite_block", "uv": [ 6, 1, 7, 15 ] },
+                "up": { "texture": "#polarite_block", "uv": [ 9, 7, 10.2, 8 ] },
+                "down": { "texture": "#polarite_block", "uv": [ 6, 7, 7.2, 8 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 7.75, 17.5, 2 ], 
+            "to": [ 8.35, 22.6, 4 ], 
+            "rotation": { "origin": [ 8.0, 18.0, 3.0 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#polarite_block", "uv": [ 6, 1, 7, 15 ] },
+                "east": { "texture": "#polarite_block", "uv": [ 11, 1, 12, 15 ] },
+                "south": { "texture": "#polarite_block", "uv": [ 7, 1, 8, 15 ] },
+                "west": { "texture": "#polarite_block", "uv": [ 6, 1, 7, 15 ] },
+                "up": { "texture": "#polarite_block", "uv": [ 9, 7, 9.6, 9 ] },
+                "down": { "texture": "#polarite_block", "uv": [ 6, 7, 6.6, 9 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 7.7, 13.5, 2 ], 
+            "to": [ 8.3, 18.6, 4 ], 
+            "rotation": { "origin": [ 8.0, 18.0, 3.0 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#polarite_block", "uv": [ 6, 1, 7, 15 ] },
+                "east": { "texture": "#polarite_block", "uv": [ 11, 1, 12, 15 ] },
+                "south": { "texture": "#polarite_block", "uv": [ 7, 1, 8, 15 ] },
+                "west": { "texture": "#polarite_block", "uv": [ 6, 1, 7, 15 ] },
+                "up": { "texture": "#polarite_block", "uv": [ 9, 7, 9.6, 9 ] },
+                "down": { "texture": "#polarite_block", "uv": [ 6, 7, 6.6, 9 ] }
+            }
+        }
+    ]
+}

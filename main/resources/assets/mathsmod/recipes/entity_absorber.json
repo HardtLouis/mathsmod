@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#i#",
+	"ioi",
+	"#i#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+	"i": {
+      "item": "mathsmod:tfosium_ingot"
+    },
+	"o": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "mathsmod:entity_absorber",
+    "count": 1
+  }
+}

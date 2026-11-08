@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i#",
+    " # ",
+    "aaa"
+  ],
+  "key": {
+    "#": {
+      "item": "mathsmod:silver_ingot"
+    },
+	"a": {
+      "item": "mathsmod:silver_block"
+    },
+	"i": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "mathsmod:turret"
+  }
+}

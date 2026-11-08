@@ -1,0 +1,186 @@
+{
+"communist_hymn": {
+	"category": "record",
+	"sounds": [
+	{
+		"name": "mathsmod:communism","stream":false
+	}
+	]
+},
+"ar15_sound": {
+	"category": "master",
+	"sounds": [
+	{
+		"name": "mathsmod:ar15_sound","stream":false
+	}
+	]
+},
+"gl_sound": {
+	"category": "master",
+	"sounds": [
+	{
+		"name": "mathsmod:gl2_sound","stream":false
+	}
+	]
+},
+"p90_sound": {
+	"category": "master",
+	"sounds": [
+	{
+		"name": "mathsmod:p90_sound","stream":false
+	}
+	]
+},
+"shotgun_sound": {
+	"category": "master",
+	"sounds": [
+	{
+		"name": "mathsmod:shotgun_sound","stream":false
+	}
+	]
+},
+"aa12_sound": {
+	"category": "master",
+	"sounds": [
+	{
+		"name": "mathsmod:aa12_sound","stream":false
+	}
+	]
+},
+"hunter_shotgun_sound": {
+	"category": "master",
+	"sounds": [
+	{
+		"name": "mathsmod:hunter_shotgun_sound","stream":false
+	}
+	]
+},
+"thompson_sound": {
+	"category": "master",
+	"sounds": [
+	{
+		"name": "mathsmod:thompson_sound","stream":false
+	}
+	]
+},
+"glock_sound": {
+	"category": "master",
+	"sounds": [
+	{
+		"name": "mathsmod:glock_sound","stream":false
+	}
+	]
+},
+"french_anthem": {
+	"category": "master",
+	"sounds": [
+	{
+		"name": "mathsmod:french_anthem","stream":false
+	}
+	]
+},
+"issou": {
+	"category": "master",
+	"sounds": [
+	{
+		"name": "mathsmod:issou","stream":false
+	}
+	]
+},
+"famas_sound": {
+	"category": "master",
+	"sounds": [
+	{
+		"name": "mathsmod:famas_sound","stream":false
+	}
+	]
+},
+"dab": {
+	"category": "master",
+	"sounds": [
+	{
+		"name": "mathsmod:dab","stream":false
+	}
+	]
+},
+"PUT_shotgun": {
+	"category": "master",
+	"sounds": [
+	{
+		"name": "mathsmod:PUT_shotgun","stream":false
+	}
+	]
+},
+"mnj": {
+	"category": "master",
+	"sounds": [
+	{
+		"name": "mathsmod:mnj","stream":false
+	}
+	]
+},
+"meem": {
+	"category": "master",
+	"sounds": [
+	{
+		"name": "mathsmod:meem","stream":false
+	}
+	]
+},
+"frying_pan": {
+	"category": "master",
+	"sounds": [
+	{
+		"name": "mathsmod:frying_pan","stream":false
+	}
+	]
+},
+"yes": {
+	"category": "master",
+	"sounds": [
+	{
+		"name": "mathsmod:yes","stream":false
+	}
+	]
+},
+"projet": {
+	"category": "master",
+	"sounds": [
+	{
+		"name": "mathsmod:projet","stream":false
+	}
+	]
+},
+"clown": {
+	"category": "master",
+	"sounds": [
+	{
+		"name": "mathsmod:clown","stream":false
+	}
+	]
+},
+"fruit_punch_for_everyone": {
+	"category": "master",
+	"sounds": [
+	{
+		"name": "mathsmod:fruit_punch_for_everyone","stream":false
+	}
+	]
+},
+"mouche": {
+	"category": "master",
+	"sounds": [
+	{
+		"name": "mathsmod:mouche","stream":false
+	}
+	]
+},
+"tatanator": {
+	"category": "master",
+	"sounds": [
+	{
+		"name": "mathsmod:tatanator","stream":false
+	}
+	]
+}
+}

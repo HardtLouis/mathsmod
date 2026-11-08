@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "mathsmod:thorium_block" }
+    }
+}

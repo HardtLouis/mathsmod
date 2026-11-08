@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom,variant=default": { "model": "mathsmod:half_slab_cherry" },
+        "half=top,variant=default": { "model": "mathsmod:upper_slab_cherry" }
+    }
+}

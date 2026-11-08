@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+	"###",
+	"###"
+  ],
+  "key": {
+    "#": {
+      "item": "mathsmod:tfosium_ingot"
+    }
+  },
+  "result": {
+    "item": "mathsmod:tfosium_chestplate",
+    "count": 1
+  }
+}

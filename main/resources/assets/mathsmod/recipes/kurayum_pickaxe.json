@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "mathsmod:kurayum_ingot"
+    }
+  },
+  "result": {
+    "item": "mathsmod:kurayum_pickaxe"
+  }
+}

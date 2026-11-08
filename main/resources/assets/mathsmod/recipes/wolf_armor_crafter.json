@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "o#o",
+	"oao",
+	"ooo"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:crafting_table"
+    },
+	"o": {
+      "item": "minecraft:quartz"
+    },
+	"a": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "result": {
+    "item": "mathsmod:wolf_armor_crafter",
+    "count": 1
+  }
+}

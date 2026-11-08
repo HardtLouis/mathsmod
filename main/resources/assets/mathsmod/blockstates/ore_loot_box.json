@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "mathsmod:ore_loot_box" }
+    }
+}

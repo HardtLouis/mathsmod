@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "minecraft:blocks/quartz_block_top",
+        "top": "mathsmod:blocks/wolf_armor_crafter",
+        "side": "minecraft:blocks/quartz_block_top"
+    }
+}

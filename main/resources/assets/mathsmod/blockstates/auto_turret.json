@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "mathsmod:auto_turret" }
+    }
+}

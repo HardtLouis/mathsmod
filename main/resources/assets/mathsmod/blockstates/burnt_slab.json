@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom,variant=default": { "model": "mathsmod:half_slab_burnt" },
+        "half=top,variant=default": { "model": "mathsmod:upper_slab_burnt" }
+    }
+}

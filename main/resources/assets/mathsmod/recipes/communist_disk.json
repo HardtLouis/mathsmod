@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+	"#o#",
+	" # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+	"o": {
+      "item": "minecraft:wooden_hoe"
+    }
+  },
+  "result": {
+    "item": "mathsmod:communist_disk",
+    "count": 1
+  }
+}

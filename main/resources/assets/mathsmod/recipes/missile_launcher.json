@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xox",
+	" o ",
+	"###"
+  ],
+  "key": {
+    "#": {
+      "item": "mathsmod:silver_ingot"
+    },
+	"o": {
+      "item": "minecraft:iron_block"
+    },
+	"x": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "mathsmod:missile_launcher",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "mathsmod:polarite_ingot"
+    }
+  },
+  "result": {
+    "item": "mathsmod:polarite_pickaxe"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+	" # ",
+    "#a#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "mathsmod:tfosium_ingot"
+    },
+	"a": {
+      "item": "minecraft:cooked_beef"
+    }
+  },
+  "result": {
+    "item": "mathsmod:regenerative_steak"
+  }
+}

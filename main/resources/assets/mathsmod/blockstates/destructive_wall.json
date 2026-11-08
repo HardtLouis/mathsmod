@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "age=0": { "model": "mathsmod:destructive_wall_0" },
+        "age=1": { "model": "mathsmod:destructive_wall_1" },
+        "age=2": { "model": "mathsmod:destructive_wall_2" },
+        "age=3": { "model": "mathsmod:destructive_wall_3" }
+    }
+}

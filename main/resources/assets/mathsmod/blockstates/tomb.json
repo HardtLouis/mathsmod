@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "mathsmod:tomb" },
+        "facing=south": { "model": "mathsmod:tomb", "y": 180 },
+        "facing=west":  { "model": "mathsmod:tomb", "y": 270 },
+        "facing=east":  { "model": "mathsmod:tomb", "y": 90 }
+    }
+}

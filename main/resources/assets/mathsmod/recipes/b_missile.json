@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "uau",
+    "#i#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:tnt"
+    },
+	"a": {
+      "item": "minecraft:lava_bucket"
+    },
+	"i": {
+      "item": "mathsmod:a_missile"
+    },
+	"u": {
+      "item": "mathsmod:kurayum_block"
+    }
+  },
+  "result": {
+    "item": "mathsmod:b_missile"
+  }
+}

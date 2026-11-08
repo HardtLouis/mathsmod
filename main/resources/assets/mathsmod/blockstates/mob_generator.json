@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "mathsmod:mob_generator" }
+    }
+}

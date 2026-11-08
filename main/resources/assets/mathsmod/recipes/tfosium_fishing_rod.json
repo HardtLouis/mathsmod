@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  e",
+    " #X",
+    "# X"
+  ],
+  "key": {
+    "e": {
+      "item": "mathsmod:tfosium_ingot"
+    },
+    "X": {
+      "item": "minecraft:string"
+    },
+    "#": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mathsmod:tfosium_rod"
+  }
+}

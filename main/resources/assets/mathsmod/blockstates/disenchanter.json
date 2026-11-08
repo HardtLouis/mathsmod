@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "mathsmod:disenchanter" },
+        "facing=south": { "model": "mathsmod:disenchanter", "y": 180 },
+        "facing=west":  { "model": "mathsmod:disenchanter", "y": 270 },
+        "facing=east":  { "model": "mathsmod:disenchanter", "y": 90 }
+    }
+}

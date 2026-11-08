@@ -1,0 +1,442 @@
+entity.xgolem.name=X-Golem
+entity.bullet.name=Bullet
+entity.plane.name=Plane
+entity.obus.name=Obus
+entity.drilling_machine.name=Drilling Machine
+entity.electric_boat.name=Electric Boat
+entity.fragmentation_grenade.name=Fragmentation Grenade
+entity.wither_bowman.name=Wither Bowman
+entity.u_missile.name=U-Missile
+entity.mate_golem.name=Mate Golem
+entity.hunter.name=Hunter
+entity.gun_bullet.name=Bullet
+entity.shark.name=Shark
+entity.dead_hunter.name=dead hunter
+entity.blal.name=blal
+entity.super_hunter.name=Super Hunter
+entity.devil_hand.name=Devil Hand
+entity.megalodon.name=Megalodon
+entity.nether_hunter.name=Nether Hunter
+
+itemGroup.mathsmod_tab=Items
+itemGroup.mathsmod_gun_tab=Guns
+
+tile.turret.name=Turret
+tile.auto_turret.name=Auto Turret
+tile.silver_chest.name=Silver Chest
+tile.multi_furnace.name=Multi Furnace
+tile.gun_crafter.name=Gun Crafter
+tile.recuperator.name=Recuperator
+tile.entity_projector.name=Entity Projector
+tile.wolf_armor_crafter.name=Wolf Armor Crafter
+tile.entity_absorber.name=§4Entity absorber
+tile.disenchanter.name=§4Disenchanter
+tile.copraveg_rg.name=Copraveg RanGiv
+tile.super_hunter_spawner.name=Super Hunter Spawner
+tile.denanium.name=Denanium
+tile.exploda.name=Exploda
+tile.diamona.name=§3Diamona
+tile.missile_launcher.name=Missile Launcher
+tile.lightning_generator.name=§eLightning Generator
+tile.burned_log.name=Burned log
+tile.black_stone.name=Black stone
+tile.copraveg_plant.name=Copraveg plant
+tile.locker.name=Locker
+tile.redstone_jukebox.name=Redstone Jukebox
+
+item.plane.name=Plane
+item.drilling_machine.name=Drilling Machine
+item.electric_boat.name=Electric Boat
+item.obus.name=Obus
+item.smasher.name=Smasher
+item.infinity_gauntlet.name=Infinity Gauntlet
+item.flame_thrower.name=Flame-Thrower
+item.unknown_helmet.name=Unknown Helmet
+item.destroyersSword.name=§4Destroyer's §0Sword
+item.projector_changer.name=Projector Changer
+item.bullet_sniper.name=Long Ammo
+item.long_ammo.name=Average Ammo
+item.little_ammo.name=Little Ammo
+item.hunting_bullet.name=Hunting Bullet
+item.love_bullet.name=Love Bullet
+item.buckshot.name=Buckshot
+item.rocket.name=Rocket
+item.communist_disk.name=Communist Disk
+item.tank.name=Tank
+item.fragmentation_grenade.name=Fragmentation Grenade
+item.grenade.name=Grenade
+item.gaz_grenade.name=Gaz Grenade
+item.sticky_grenade.name=Sticky Grenade
+item.drone_launcher.name=Drone launcher
+item.copraveg_rod.name=§1§lCopraveg's Rod
+item.bulletproof_vest.name=§7Bulletproof Vest
+item.instruction_book.name=§cInstruction Book
+item.grapple.name=Grapple
+item.harpoon.name=Harpoon
+item.basic_jetpack.name=§1Basic Jetpack
+item.nuclear_rocket_launcher.name=§4§lNuclear Rocket Launcher
+item.eye_of_blal.name=Eye of a blal
+item.iron_shard.name=Iron shard
+item.basic_sound_muffler.name=Basic sound muffler
+item.basic_scope.name=Basic scope
+item.nuclear_plane.name=§4§lNuclear plane
+item.half_muffler.name=Half muffler
+item.a_missile.name=A-Missile
+item.nuclear_missile.name=§4§lNuclear Missile
+item.explosive_belt.name=§4Explosive belt
+item.assassin_rapier.name=§4Assassin rapier
+item.sky_sword.name=§8§lSky sword
+item.sea_sword.name=§b§lSea sword
+item.earth_sword.name=§c§lEarth §0sword
+item.helicopter.name=Helicopter
+item.shark_tooth.name=Shark tooth
+item.french_disk.name=French Disk
+item.issou_disk.name=Issou Disk
+item.regenerative_steak.name=§1Regenerative steak
+item.kurayum_apple.name=§4Kurayum apple
+item.b_missile.name=§2B-Missile
+item.repulsive_grenade.name=Repulsive grenade
+item.knockback_grenade.name=Knockback grenade
+item.platypus_paw.name=Platypus paw
+item.assault_grenade_launcher.name=Assault G-L
+item.player_tracker.name=Player tracker
+item.camera_drone.name=Camera drone
+item.bot.name=B.O.T
+item.repulsive_rocket.name=Repulsive Rocket
+item.iron_hammer.name=Iron hammer
+item.diamond_hammer.name=Diamond hammer
+item.silver_hammer.name=Silver Hammer
+item.blumon.name=Blumon
+item.heart_fish.name=Heart Fish
+item.ender_fish.name=Ender Fish
+item.armor_fish.name=Armor Fish
+item.fire_fish.name=Fire Fish
+item.black_hat.name=Black Hat
+item.chapka.name=Chapka
+item.hood.name=Hood
+item.basic_sight.name=Basic sight
+item.charge_shield.name=Charge Shield
+item.vodka.name=Vodka
+item.kepi.name=Kepi
+item.medic_thompson.name=§4Doctor's Thompson
+item.medic_s_shotgun.name=§4Doctor's Shotgun
+item.assault_skeleton_launcher.name=Skeleton launcher
+item.golden_baseball_bat.name=§6Baseball Bat
+item.frying_pan.name=§aF§1r§2y§3i§4n§5g §6P§7a§9n
+
+item.copraveg_key.name=§4Copraveg Key
+item.crab_key.name=§8Crab Key
+item.ice_rod.name=§bIce rod
+item.frozen_sword.name=§bFrozen sword
+item.golden_frying_pan.name=§6Golden §aF§1r§2y§3i§4n§5g §6P§7a§9n
+item.polarite_frying_pan.name=§ePolarite §aF§1r§2y§3i§4n§5g §6P§7a§9n
+
+item.blue_and_white_layer.name=Blue and white layer
+item.classical_layer.name=Classical layer
+item.classical_scar_layer.name=Classical SCAR layer
+item.dark_layer.name=Dark layer (blue)
+item.dark2_layer.name=Dark layer (red)
+item.end_layer.name=Ender layer
+item.galaxy_layer.name=Galaxy layer
+item.love_layer.name=Love layer
+item.old_layer.name=Old style layer
+item.rainbow_layer.name=Rainbow layer
+item.red_and_black_layer.name=Red and black layer
+item.silver_layer.name=Silver layer
+
+item.silver_ingot.name=Silver Ingot
+item.silver_sword.name=Silver Sword
+item.silver_pickaxe.name=Silver Pickaxe
+item.silver_hoe.name=Silver Hoe
+item.silver_axe.name=Silver Axe
+item.silver_shovel.name=Silver Shovel
+tile.silver_block.name=Silver Block
+tile.silver_ore.name=Silver Ore
+item.silver_boots.name=Silver Boots
+item.silver_leggings.name=Silver Leggings
+item.silver_chestplate.name=Silver Chestplate
+item.silver_helmet.name=Silver Helmet
+item.silver_rod.name=Silver Rod
+item.baseball_bat.name=Baseball Bat
+
+item.tfosium_ingot.name=§1Tfosium Ingot
+item.tfosium_sword.name=§1Tfosium Sword
+item.tfosium_pickaxe.name=§1Tfosium Pickaxe
+item.tfosium_hoe.name=§1Tfosium Hoe
+item.tfosium_axe.name=§1Tfosium Axe
+item.tfosium_shovel.name=§1Tfosium Shovel
+item.tfosium_hammer.name=§1Tfosium Hammer
+tile.tfosium_block.name=§1Tfosium Block
+tile.tfosium_ore.name=§1Tfosium Ore
+item.tfosium_boots.name=§1Tfosium Boots
+item.tfosium_leggings.name=§1Tfosium Leggings
+item.tfosium_chestplate.name=§1Tfosium Chestplate
+item.tfosium_helmet.name=§1Tfosium Crown
+item.tfosium_rod.name=§1Tfosium Rod
+
+item.kurayum_ingot.name=§4Kurayum Ingot
+item.kurayum_sword.name=§4Kurayum Sword
+item.kurayum_pickaxe.name=§4Kurayum Pickaxe
+item.kurayum_hoe.name=§4Kurayum Hoe
+item.kurayum_axe.name=§4Kurayum Axe
+item.kurayum_shovel.name=§4Kurayum Shovel
+item.kurayum_hammer.name=§4Kurayum Hammer
+tile.kurayum_block.name=§4Kurayum Block
+tile.kurayum_ore.name=§4Kurayum Ore
+item.kurayum_boots.name=§4Kurayum Boots
+item.kurayum_leggings.name=§4Kurayum Leggings
+item.kurayum_chestplate.name=§4Kurayum Chestplate
+item.kurayum_helmet.name=§4Kurayum Helmet
+
+item.kurayum_boots.name=§4Kurayum Boots
+item.kurayum_leggings.name=§4Kurayum Leggings
+item.kurayum_chestplate.name=§4Kurayum Chestplate
+item.kurayum_helmet.name=§4Kurayum Helmet
+
+item.thorium_ingot.name=§eThorium Ingot
+item.t_missile.name=§eT-Missile
+tile.thorium_ore.name=§eThorium ore
+tile.thorium_block.name=§eThorium block
+item.thorium_boots.name=§eThorium Boots
+item.thorium_leggings.name=§eThorium Leggings
+item.thorium_chestplate.name=§eThorium Chestplate
+item.thorium_helmet.name=§eThorium Helmet
+
+item.uber_boots.name=§bUber Boots
+item.uber_leggings.name=§bUber Leggings
+item.uber_chestplate.name=§bUber Chestplate
+item.uber_helmet.name=§bUber Helmet
+
+item.sniper.name=§8Basic Sniper
+item.P90.name=§8P90
+item.shotgun.name=§8Basic Shotgun
+item.famas.name=§8FAMAS
+item.desert_eagle.name=§8Desert Eagle
+item.SCAR_H.name=§8SCAR H
+item.AA12.name=§8AA12
+item.remington870.name=§8Remington 870
+item.rocket_launcher.name=§8Basic Rocket Launcher
+item.AK47.name=§8AK-47
+item.AR15.name=§8AR-15
+item.double_sniper.name=§8Sniper Double Shot
+item.carbine.name=§8Carbine
+item.hunter_shotgun.name=§8Hunter Shotgun
+item.tactical_rocket_launcher.name=§8Tactical Rocket Launcher
+item.M14.name=§8M14
+item.HM_654.name=§8HM-654
+item.thompson.name=§8Thompson
+item.SCAR_L.name=§8SCAR L
+item.scope_famas.name=§8FAMAS
+item.scope_AR15.name=§8AR-15
+item.FAFR.name=§8FAFR
+item.grenade_launcher.name=§8Basic Grenade Launcher
+item.tactical_grenade_launcher.name=§8Tactical Grenade Launcher
+item.glock17.name=§8Glock 17
+item.kb800.name=§8KB800
+item.heavy_famas.name=§8Heavy Famas
+item.bs20.name=§8BS-20
+item.fs19.name=§8FS-19
+item.nether_mg.name=§8Nether Hunter's Machine gun
+item.iron_assault_rifle.name=§8Iron assault rifle
+item.rs5.name=§8RS-5
+item.nmg.name=§8NMG
+item.fm_mas.name=§8FM MAS
+item.tactical_bow.name=§8Tactical Bow
+item.remote_grenade_launcher.name=§8Remote G-L
+item.medigun.name=Heal-Gun
+item.bazookb.name=BazooK-B
+item.ender_sniper.name=Ender Sniper
+item.humiliation_rifle.name=Humiliation Rifle
+item.AA14.name=§8AA14
+item.zip22.name=§8zip 22
+
+item.golden_sniper.name=§6Basic Sniper
+item.golden_P90.name=§6P90
+item.golden_shotgun.name=§6Basic Shotgun
+item.golden_famas.name=§6FAMAS
+item.golden_desert_eagle.name=§6Desert Eagle
+item.golden_SCAR_H.name=§6SCAR H
+item.golden_AA12.name=§6AA12
+item.golden_remington870.name=§6Remington 870
+item.golden_AK47.name=§6AK-47
+item.golden_AR15.name=§6AR-15
+item.golden_double_sniper.name=§6Sniper Double Shot
+item.golden_carbine.name=§6Carbine
+item.golden_hunter_shotgun.name=§6Hunter Shotgun
+item.golden_M14.name=§6M14
+item.golden_thompson.name=§6Thompson
+item.golden_SCAR_L.name=§6SCAR L
+item.golden_scope_famas.name=§6FAMAS
+item.golden_scope_AR15.name=§6AR-15
+item.golden_FAFR.name=§6FAFR
+item.golden_glock17.name=§6Glock 17
+item.golden_rocket_launcher.name=§6Basic Rocket Launcher
+item.minigun.name=§6Minigun
+item.golden_kb800.name=§6KB800
+item.golden_heavy_famas.name=§6Heavy Famas
+item.golden_bs20.name=§6BS-20
+item.golden_fs19.name=§6FS-19
+item.golden_rs5.name=§6RS-5
+item.golden_nmg.name=§6NMG
+item.golden_fm_mas.name=§6FM MAS
+item.golden_AA14.name=§6AA14
+item.golden_grenade_launcher.name=§6Basic Grenade Launcher
+
+container.silver_chest=Silver Chest
+communist.sym=☭
+item.record.communist.desc=Song for true communists
+item.record.french.desc=Anthem of the best country
+item.record.issou.desc=???
+
+enchantment.power=§4Power
+enchantment.infinity=§4Infinity
+enchantment.smelt=Smelt
+
+death.attack.infinity=%1$s was slain by %2$s §5(Thanos)
+death.attack.infinity=%1$s was mysteriously pulverized by %2$s §5(Thanos)
+death.attack.thrown.noob=%1$s was bad (killed by %2$s)
+death.attack.thrown.item.noob=%1$s was bad (killed by %2$s using %3$s)
+
+death.attack.burn.item=%1$s was burned by %2$s using %3$s
+death.attack.burn=%1$s was burned by %2$s
+
+death.attack.stomp=%1$s was stomped by %2$s
+death.attack.stomp.item=%1$s was stomped by %2$s
+
+death.attack.gitan=%1$s was caillassed
+
+death.attack.suicide=%1$s killed himself
+
+
+commands.heal.successful=%s is now full life
+commands.feed.successful=fed %s
+
+guns.crafter=Gun Crafter
+
+item.fugitive_boots.name=§dFugitive Boots
+item.fugitive_leggings.name=§dFugitive Leggings
+item.fugitive_chestplate.name=§dFugitive Chestplate
+item.fugitive_helmet.name=§dFugitive Helmet
+
+item.warrior_boots.name=§eWarrior Boots
+item.warrior_leggings.name=§eWarrior Leggings
+item.warrior_chestplate.name=§eWarrior Chestplate
+item.warrior_helmet.name=§eWarrior Helmet
+
+item.attacker_boots.name=§cAttacker Boots
+item.attacker_leggings.name=§cAttacker Leggings
+item.attacker_chestplate.name=§cAttacker Chestplate
+item.attacker_helmet.name=§cAttacker Helmet
+
+item.tank_boots.name=§8Tank Boots
+item.tank_leggings.name=§8Tank Leggings
+item.tank_chestplate.name=§8Tank Chestplate
+item.tank_helmet.name=§8Tank Helmet
+
+item.shield_boots.name=§aShield Boots
+item.shield_leggings.name=§aShield Leggings
+item.shield_chestplate.name=§aShield Chestplate
+item.shield_helmet.name=§aShield Helmet
+
+item.aggressive_boots.name=§7Aggressive Boots
+item.aggressive_leggings.name=§7Aggressive Leggings
+item.aggressive_chestplate.name=§7Aggressive Chestplate
+item.aggressive_helmet.name=§7Aggressive Helmet
+
+item.leather_wolf_boots.name=Wolf's Leather Boots
+item.leather_wolf_leggings.name=Wolf's Leather Leggings
+item.leather_wolf_chestplate.name=Wolf's Leather Chestplate
+item.leather_wolf_helmet.name=Wolf's Leather Helmet
+
+item.iron_wolf_boots.name=Wolf's Iron Boots
+item.iron_wolf_leggings.name=Wolf's Iron Leggings
+item.iron_wolf_chestplate.name=Wolf's Iron Chestplate
+item.iron_wolf_helmet.name=Wolf's Iron Helmet
+
+item.gold_wolf_boots.name=Wolf's Gold Boots
+item.gold_wolf_leggings.name=Wolf's Gold Leggings
+item.gold_wolf_chestplate.name=Wolf's Gold Chestplate
+item.gold_wolf_helmet.name=Wolf's Gold Helmet
+
+item.diamond_wolf_boots.name=Wolf's Diamond Boots
+item.diamond_wolf_leggings.name=Wolf's Diamond Leggings
+item.diamond_wolf_chestplate.name=Wolf's Diamond Chestplate
+item.diamond_wolf_helmet.name=Wolf's Diamond Helmet
+
+item.kurayum_wolf_boots.name=§4Wolf's Kurayum Boots
+item.kurayum_wolf_leggings.name=§4Wolf's Kurayum Leggings
+item.kurayum_wolf_chestplate.name=§4Wolf's Kurayum Chestplate
+item.kurayum_wolf_helmet.name=§4Wolf's Kurayum Helmet
+
+ib.page0.title=Instruction Book
+ib.line1.p0=Welcome !
+ib.line2.p0=Thanks for installing mathsmod !
+ib.line3.p0=This book will helps you
+ib.line4.p0=with my mod 
+ib.line5.p0= ENJOY !!!
+
+ib.page1.title=this mod
+ib.line1.p1=this mod adds endgame content
+ib.line2.p1=Ores are better than diamonds.
+ib.line3.p1=He changes 1.9's PvP and PvE 
+ib.line4.p1=for exemple you can spam with
+ib.line5.p1=your sword but ...
+
+ib.page2.title=Guns 1/2
+ib.line1.p2=guns can be obtain by
+ib.line2.p2=killing hunters but when you
+ib.line3.p2=hurt them , they attacks. Or
+ib.line4.p2=by crafting with a gun crafter
+ib.line5.p2=Gun crafter's gui shows recipes
+
+ib.page3.title=Guns 2/2
+ib.line1.p3=to use guns you have to
+ib.line2.p3=have bullets in your inventory
+ib.line3.p3=or use a gun with §4Infinity
+ib.line4.p3=press left click to aim and
+ib.line5.p3=right click to shoot 
+
+ib.page4.title=Wolf armors
+ib.line1.p4=thoses armors can be obtain
+ib.line2.p4=by fusionning 2 pieces of normal
+ib.line3.p4=armor with a wolf armor crafter
+ib.line4.p4=to equip armor , you need to
+ib.line5.p4=Sneack+right click on your wolf
+
+ib.page5.title=X-Golem
+ib.line1.p5=To summon an x-golem you
+ib.line2.p5=need to reproduct this
+ib.line3.p5=pattern . He can keep your
+ib.line4.p5=items like a chest .
+ib.line5.p5=He is stronger than iron golem
+
+ib.page6.title=Mate Golem
+ib.line1.p6=To summon mate golem you
+ib.line2.p6=need to reproduct this
+ib.line3.p6=pattern . He has a
+ib.line4.p6=competence tree and xp
+ib.line5.p6=try you best with ! 
+
+ib.page7.title=Destroyer
+ib.line1.p7=the destroyer is a boss
+ib.line2.p7=who can be spawn with this
+ib.line3.p7=pattern . He drops a sword 
+ib.line4.p7=but caution if you kill him
+ib.line5.p7=It's not the end ...
+
+ib.page8.title=Iron furnace
+ib.line1.p8=the iron furnace is a
+ib.line2.p8=furnace that can be better
+ib.line3.p8=if you put 9 iron block 
+ib.line4.p8=above and under the block
+ib.line5.p8= 
+
+ib.page9.title=Copraveg
+ib.line1.p9=the copraveg is a dimension
+ib.line2.p9=who can be accessed
+ib.line3.p9=by doing a nether portal
+ib.line4.p9=with kurayum block
+ib.line5.p9=and right click below
+
+advancements.frying_pan.title=§4Frying Pan !
+advancements.frying_pan.description=Obtained a frying pan by killing 10 people without dying

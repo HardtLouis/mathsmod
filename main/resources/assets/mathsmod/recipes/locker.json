@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "o#o",
+	"###",
+	"o#o"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+	"o": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "mathsmod:locker",
+    "count": 32
+  }
+}

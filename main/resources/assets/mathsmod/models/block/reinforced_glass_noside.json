@@ -1,0 +1,6 @@
+{
+    "parent": "block/pane_noside",
+    "textures": {
+        "pane": "mathsmod:blocks/reinforced_glass"
+    }
+}

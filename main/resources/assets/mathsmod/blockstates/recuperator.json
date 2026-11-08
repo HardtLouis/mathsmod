@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "mathsmod:recuperator", "y": 180 },
+        "facing=south": { "model": "mathsmod:recuperator"},
+        "facing=west":  { "model": "mathsmod:recuperator", "y": 90 },
+        "facing=east":  { "model": "mathsmod:recuperator", "y": 270 }
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i ",
+	"ioi",
+	" i "
+  ],
+  "key": {
+	"o": {
+      "item": "mathsmod:grenade"
+    },
+	"i": {
+      "item": "minecraft:spider_eye"
+    }
+  },
+  "result": {
+    "item": "mathsmod:gaz_grenade",
+    "count": 1
+  }
+}

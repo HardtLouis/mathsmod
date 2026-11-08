@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "mathsmod:kurayum_block"
+    }
+  },
+  "result": {
+    "item": "mathsmod:kurayum_ingot",
+    "count": 9
+  }
+}

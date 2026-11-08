@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "mathsmod:randomized_structure_placer" }
+    }
+}

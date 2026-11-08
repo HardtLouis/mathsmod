@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "axis=z": { "model": "mathsmod:sportal_ew" },
+        "axis=x": { "model": "mathsmod:sportal_ns" }
+    }
+}

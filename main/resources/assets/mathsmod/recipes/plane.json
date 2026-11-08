@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+	"ooo",
+	" # "
+  ],
+  "key": {
+    "#": {
+      "item": "mathsmod:silver_ingot"
+    },
+	"o": {
+      "item": "mathsmod:silver_block"
+    }
+  },
+  "result": {
+    "item": "mathsmod:plane",
+    "count": 1
+  }
+}

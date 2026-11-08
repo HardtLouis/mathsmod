@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+	"#o#",
+	"###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brick"
+    },
+	"o": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "item": "mathsmod:metalurgic_furnace",
+    "count": 1
+  }
+}

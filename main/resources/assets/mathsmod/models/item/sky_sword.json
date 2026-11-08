@@ -1,0 +1,109 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "glass_white": "minecraft:blocks/glass_white"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, -4, 0 ],
+            "scale": [ 0.725, 0.725, 0.725 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "translation": [ 0, -1.5, 0 ]
+        },
+        "thirdperson_righthand": {
+            "translation": [ 0, -1.5, 1 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Cube",
+            "from": [ 7, 5, 6 ], 
+            "to": [ 9, 6, 10 ], 
+            "faces": {
+                "north": { "texture": "#glass_white", "uv": [ 7, 8, 9, 9 ] },
+                "east": { "texture": "#glass_white", "uv": [ 5, 6, 9, 7 ] },
+                "south": { "texture": "#glass_white", "uv": [ 3, 7, 5, 8 ] },
+                "west": { "texture": "#glass_white", "uv": [ 5, 8, 9, 9 ] },
+                "up": { "texture": "#glass_white", "uv": [ 9, 9, 11, 13 ] },
+                "down": { "texture": "#glass_white", "uv": [ 11, 9, 13, 13 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 6.5, 6, 5 ], 
+            "to": [ 9.5, 10, 6 ], 
+            "faces": {
+                "north": { "texture": "#glass_white", "uv": [ 7, 8, 10, 12 ] },
+                "east": { "texture": "#glass_white", "uv": [ 5, 6, 6, 10 ] },
+                "south": { "texture": "#glass_white", "uv": [ 3, 7, 6, 11 ] },
+                "west": { "texture": "#glass_white", "uv": [ 5, 8, 6, 12 ] },
+                "up": { "texture": "#glass_white", "uv": [ 9, 9, 12, 10 ] },
+                "down": { "texture": "#glass_white", "uv": [ 11, 9, 14, 10 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 7, 10, 6 ], 
+            "to": [ 9, 11, 10 ], 
+            "faces": {
+                "north": { "texture": "#glass_white", "uv": [ 7, 8, 9, 9 ] },
+                "east": { "texture": "#glass_white", "uv": [ 5, 6, 9, 7 ] },
+                "south": { "texture": "#glass_white", "uv": [ 3, 7, 5, 8 ] },
+                "west": { "texture": "#glass_white", "uv": [ 5, 8, 9, 9 ] },
+                "up": { "texture": "#glass_white", "uv": [ 9, 9, 11, 13 ] },
+                "down": { "texture": "#glass_white", "uv": [ 11, 9, 13, 13 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 7.85, 11, 8.5 ], 
+            "to": [ 8.15, 27, 9.5 ], 
+            "faces": {
+                "north": { "texture": "#glass_white", "uv": [ 8, 5, 8.3, 14 ] },
+                "east": { "texture": "#glass_white", "uv": [ 7, 3, 8, 12 ] },
+                "south": { "texture": "#glass_white", "uv": [ 8, 1, 8.3, 14 ] },
+                "west": { "texture": "#glass_white", "uv": [ 6, 4, 10, 12 ] },
+                "up": { "texture": "#glass_white", "uv": [ 5, 3, 6.3, 6 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 7.5, 5.5, 8.3 ], 
+            "to": [ 8.5, 10.5, 9.3 ], 
+            "faces": {
+                "north": { "texture": "#glass_white", "uv": [ 7, 8, 8, 13 ] },
+                "east": { "texture": "#glass_white", "uv": [ 5, 6, 6, 11 ] },
+                "south": { "texture": "#glass_white", "uv": [ 3, 7, 4, 12 ] },
+                "west": { "texture": "#glass_white", "uv": [ 5, 8, 6, 13 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 7.85, 11, 7.5 ], 
+            "to": [ 8.15, 23, 8.5 ], 
+            "faces": {
+                "north": { "texture": "#glass_white", "uv": [ 10, 4, 10.3, 15 ] },
+                "east": { "texture": "#glass_white", "uv": [ 9, 3, 10, 14 ] },
+                "west": { "texture": "#glass_white", "uv": [ 7, 3, 8, 10 ] },
+                "up": { "texture": "#glass_white", "uv": [ 4, 8, 8.3, 7 ] }
+            }
+        }
+    ]
+}

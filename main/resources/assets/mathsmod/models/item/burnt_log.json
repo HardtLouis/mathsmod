@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "mathsmod:blocks/burned_log_top",
+        "side": "mathsmod:blocks/burned_log"
+    }
+}

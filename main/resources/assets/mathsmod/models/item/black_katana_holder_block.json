@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "mathsmod:blocks/polarite_block",
+        "side": "mathsmod:blocks/black_katana_holder_block"
+    }
+}

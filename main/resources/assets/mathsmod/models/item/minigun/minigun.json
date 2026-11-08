@@ -1,0 +1,73 @@
+{
+	"credit": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+	"textures": {
+		"guns_modern": "mathsmod:items/guns_modern"
+	},
+	"elements": [
+		{
+			"from": [-3, -3, 15],
+			"to": [3, 3, 18],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-2, -2, 18]},
+			"faces": {
+				"north": {"uv": [9, 0, 15, 6], "texture": "#guns_modern"},
+				"east": {"uv": [9, 0, 12, 6], "texture": "#guns_modern"},
+				"south": {"uv": [9, 0, 15, 6], "texture": "#guns_modern"},
+				"west": {"uv": [9, 0, 12, 6], "texture": "#guns_modern"},
+				"up": {"uv": [9, 0, 15, 3], "texture": "#guns_modern"},
+				"down": {"uv": [9, 0, 15, 3], "texture": "#guns_modern"}
+			}
+		},
+		{
+			"from": [-0.5, 4.75, 15.5],
+			"to": [0.5, 5, 17.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-2, 3, 15]},
+			"faces": {
+				"north": {"uv": [4, 13, 5, 13.25], "texture": "#guns_modern"},
+				"east": {"uv": [4, 13, 6, 13.25], "texture": "#guns_modern"},
+				"south": {"uv": [4, 13, 5, 13.25], "texture": "#guns_modern"},
+				"west": {"uv": [4, 13, 6, 13.25], "texture": "#guns_modern"},
+				"up": {"uv": [4, 13, 5, 15], "texture": "#guns_modern"},
+				"down": {"uv": [4, 13, 5, 15], "texture": "#guns_modern"}
+			}
+		},
+		{
+			"from": [-0.5, 3, 17.5],
+			"to": [0.5, 5, 18],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-2, 3, 17.5]},
+			"faces": {
+				"north": {"uv": [5, 13, 6, 15], "texture": "#guns_modern"},
+				"east": {"uv": [5, 13, 5.5, 15], "texture": "#guns_modern"},
+				"south": {"uv": [5, 13, 6, 15], "texture": "#guns_modern"},
+				"west": {"uv": [5, 13, 5.5, 15], "texture": "#guns_modern"},
+				"up": {"uv": [5, 13, 6, 13.5], "texture": "#guns_modern"},
+				"down": {"uv": [5, 13, 6, 13.5], "texture": "#guns_modern"}
+			}
+		},
+		{
+			"from": [-0.5, 3, 15],
+			"to": [0.5, 5, 15.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-2, 3, 15]},
+			"faces": {
+				"north": {"uv": [5, 13, 6, 15], "texture": "#guns_modern"},
+				"east": {"uv": [5, 13, 5.5, 15], "texture": "#guns_modern"},
+				"south": {"uv": [5, 13, 6, 15], "texture": "#guns_modern"},
+				"west": {"uv": [5, 13, 5.5, 15], "texture": "#guns_modern"},
+				"up": {"uv": [5, 13, 6, 13.5], "texture": "#guns_modern"},
+				"down": {"uv": [5, 13, 6, 13.5], "texture": "#guns_modern"}
+			}
+		},
+		{
+			"from": [-2, -2, 18],
+			"to": [2, 2, 19],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-2, -2, 18]},
+			"faces": {
+				"north": {"uv": [8, 1, 12, 5], "texture": "#guns_modern"},
+				"east": {"uv": [8, 1, 9, 5], "texture": "#guns_modern"},
+				"south": {"uv": [8, 1, 12, 5], "texture": "#guns_modern"},
+				"west": {"uv": [8, 1, 9, 5], "texture": "#guns_modern"},
+				"up": {"uv": [8, 1, 12, 2], "texture": "#guns_modern"},
+				"down": {"uv": [8, 1, 12, 2], "texture": "#guns_modern"}
+			}
+		}
+	]
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "mathsmod:blocks/log_cherry_top",
+        "side": "mathsmod:blocks/log_cherry"
+    }
+}

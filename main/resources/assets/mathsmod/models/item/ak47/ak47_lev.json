@@ -1,0 +1,43 @@
+{
+	"credit": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+	"textures": {
+		"guns": "mathsmod:items/guns"
+	},
+	"elements": [
+		{
+			"from": [6.75, 8.75, 6.75],
+			"to": [8, 9, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-2, 7, 5]},
+			"faces": {
+				"north": {"uv": [10, 8, 11.25, 8.25], "texture": "#guns"},
+				"east": {"uv": [10, 8, 10.25, 8.25], "texture": "#guns"},
+				"south": {"uv": [10, 8, 11.25, 8.25], "texture": "#guns"},
+				"west": {"uv": [10, 8, 10.25, 8.25], "texture": "#guns"},
+				"up": {"uv": [10, 8, 11.25, 8.25], "texture": "#guns"},
+				"down": {"uv": [10, 8, 11.25, 8.25], "texture": "#guns"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 1, -2],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 2.5, 0]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"gui": {
+			"rotation": [30, 45, 0]
+		},
+		"head": {
+			"rotation": [0, 180, 0]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0]
+		}
+	}
+}

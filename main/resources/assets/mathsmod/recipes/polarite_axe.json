@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    "Xu",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "mathsmod:polarite_ingot"
+    }
+	,
+    "u": {
+      "item": "mathsmod:ice_rod"
+    }
+  },
+  "result": {
+    "item": "mathsmod:polarite_axe"
+  }
+}

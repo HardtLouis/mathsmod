@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "mathsmod:silver_block" },
+		"facing=south": { "model": "mathsmod:silver_block" },
+		"facing=east": { "model": "mathsmod:silver_block" },
+		"facing=west": { "model": "mathsmod:silver_block" }
+    }
+}

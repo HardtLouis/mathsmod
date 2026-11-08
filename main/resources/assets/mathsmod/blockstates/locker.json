@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "opened=0": { "model": "mathsmod:locker" },
+		"opened=1": { "model": "mathsmod:opened_locker" },
+		"power=2": { "model": "mathsmod:opened_locker" }
+    }
+}

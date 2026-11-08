@@ -1,0 +1,255 @@
+entity.xgolem.name=X-Golem
+entity.bullet.name=balle
+entity.plane.name=Avion
+entity.obus.name=Obus
+entity.drilling_machine.name=foreuse
+entity.electric_boat.name=bâteau électrique
+entity.fragmentation_grenade.name=grenade à fragmentations
+entity.wither_bowman.name=wither archer
+entity.u_missile.name=U-Missile
+entity.mate_golem.name=ami golem
+entity.hunter.name=chasseur
+entity.gun_bullet.name=balle
+entity.shark.name=requin
+entity.dead_hunter.name=chasseur mort
+entity.blal.name=blal
+
+itemGroup.mathsmod_tab=Objets
+itemGroup.mathsmod_gun_tab=Armes à feu
+
+tile.turret.name=Tourelle
+tile.auto_turret.name=Tourelle Auto
+tile.silver_chest.name=Coffre en argent
+tile.multi_furnace.name=Four Multi
+tile.gun_crafter.name=Machine à armes
+tile.recuperator.name=Recuperateur
+tile.entity_projector.name=Projecteur à entités
+tile.wolf_armor_crafter.name=Fabricateur d'armures pour loups
+tile.entity_absorber.name=§4Absorbeur d'entités
+tile.disenchanter.name=§4Désenchanteur
+
+item.plane.name=Avion
+item.drilling_machine.name=Foreuse
+item.electric_boat.name=Bâteau électrique
+item.obus.name=Obus
+item.smasher.name=Smasher
+item.infinity_gauntlet.name=Gantelet de l'infini
+item.flame_thrower.name=Lance-Flammes
+item.unknown_helmet.name=Casque inconnu
+item.destroyersSword.name=§4épée du §0Destructeur
+item.projector_changer.name=Changeur
+item.bullet_sniper.name=Longue balle
+item.long_ammo.name=Balle normale
+item.little_ammo.name=Petite balle
+item.hunting_bullet.name=Balle sauvestre
+item.love_bullet.name=Balle de l'amour
+item.buckshot.name=Chevrotine
+item.rocket.name=Roquette
+item.communist_disk.name=Disque communiste
+item.tank.name=Tank
+item.fragmentation_grenade.name=Grenade à fragmentations
+item.grenade.name=Grenade
+item.gaz_grenade.name=Grenade empoisonnante
+item.sticky_grenade.name=Grenade collante
+item.drone_launcher.name=Lanceur de Drones
+item.copraveg_rod.name=§1§lBâton du Copraveg
+item.bulletproof_vest.name=§7Gilet pare-balles
+item.instruction_book.name=§cLivre d'instructions
+
+item.silver_ingot.name=Lingot d'argent
+item.silver_sword.name=épée en argent
+item.silver_pickaxe.name=Pioche en argent
+item.silver_hoe.name=Houe en argent
+item.silver_axe.name=Hache en argent
+item.silver_shovel.name=Pelle en argent
+tile.silver_block.name=Block en argent
+tile.silver_ore.name=Minerai d'argent
+item.silver_boots.name=Bottes en argent
+item.silver_leggings.name=Jambières en argent
+item.silver_chestplate.name=Plastron en argent
+item.silver_helmet.name=Casque en argent
+
+item.tfosium_ingot.name=§1Lingot de tfosium
+item.tfosium_sword.name=§1épée en tfosium
+item.tfosium_pickaxe.name=§1Pioche en tfosium
+item.tfosium_hoe.name=§1Houe en tfosium
+item.tfosium_axe.name=§1Hache en tfosium
+item.tfosium_shovel.name=§1Pelle en tfosium
+item.tfosium_hammer.name=§1Marteau en tfosium
+tile.tfosium_block.name=§1Block en tfosium
+tile.tfosium_ore.name=§1Minerai de tfosium
+item.tfosium_boots.name=§1Bottes en tfosium
+item.tfosium_leggings.name=§1Jambières en tfosium
+item.tfosium_chestplate.name=§1Plastron en tfosium
+item.tfosium_helmet.name=§1Casque en tfosium
+
+item.kurayum_ingot.name=§4Lingot de kurayum
+item.kurayum_sword.name=§4épée en kurayum
+item.kurayum_pickaxe.name=§4Pioche en kurayum
+item.kurayum_hoe.name=§4Houe en kurayum
+item.kurayum_axe.name=§4Hache en kurayum
+item.kurayum_shovel.name=§4Pelle en kurayum
+item.kurayum_hammer.name=§4Marteau en kurayum
+tile.kurayum_block.name=§4Block en kurayum
+tile.kurayum_ore.name=§4Minerai de kurayum
+item.kurayum_boots.name=§4Bottes en kurayum
+item.kurayum_leggings.name=§4Jambières en kurayum
+item.kurayum_chestplate.name=§4Plastron en kurayum
+item.kurayum_helmet.name=§4Casque en kurayum
+
+item.sniper.name=§8Sniper Basique
+item.P90.name=§8P90
+item.shotgun.name=§8Fusil à pompe basique
+item.famas.name=§8FAMAS
+item.desert_eagle.name=§8Desert Eagle
+item.SCAR_H.name=§8SCAR H
+item.AA12.name=§8AA12
+item.remington870.name=§8Remington 870
+item.rocket_launcher.name=§8Lance-Roquettes basique
+item.AK47.name=§8AK-47
+item.AR15.name=§8AR-15
+item.double_sniper.name=§8Sniper à double coup
+item.carbine.name=§8Carabine
+item.hunter_shotgun.name=§8Fusil à pompe de chasse
+item.tactical_rocket_launcher.name=§8Lance-Roquettes tactique
+item.M14.name=§8M14
+item.HM_654.name=§8HM-654
+item.thompson.name=§8Thompson
+item.SCAR_L.name=§8SCAR L
+item.scope_famas.name=§8FAMAS
+item.scope_AR15.name=§8AR-15
+item.FAFR.name=§8FAFR
+
+container.silver_chest=Coffre en argent
+communist.sym=☭
+item.record.communist.desc=Musique pour les vrais communistes
+
+enchantment.power=§4Puissance
+enchantment.infinity=§4Infinité
+enchantment.smelt=Cuisson
+
+death.attack.infinity=%1$s a été tué par %2$s §5(Thanos)
+death.attack.infinity=%1$s a été mysterieusement pulvérisé par %2$s §5(Thanos)
+
+commands.heal.successful=%s est maintenant plein de vie ( jeu de mot )
+commands.feed.successful=%s a été nourri
+
+
+
+item.fugitive_boots.name=§dBottes fugitives
+item.fugitive_leggings.name=§dJambières fugitives
+item.fugitive_chestplate.name=§dPlastron fugitives
+item.fugitive_helmet.name=§dCasque fugitives
+
+item.warrior_boots.name=§eBottes guerrier
+item.warrior_leggings.name=§eJambières guerrier
+item.warrior_chestplate.name=§ePlastron guerrier
+item.warrior_helmet.name=§eCasque guerrier
+
+item.attacker_boots.name=§cBottes attaquant
+item.attacker_leggings.name=§cJambières attaquant
+item.attacker_chestplate.name=§cPlastron attaquant
+item.attacker_helmet.name=§cCasque attaquant
+
+item.tank_boots.name=§8Bottes Tank
+item.tank_leggings.name=§8Jambières Tank
+item.tank_chestplate.name=§8Plastron Tank
+item.tank_helmet.name=§8Casque Tank
+
+item.shield_boots.name=§aBottes protecteur
+item.shield_leggings.name=§aJambières protecteur
+item.shield_chestplate.name=§aPlastron protecteur
+item.shield_helmet.name=§aCasque protecteur
+
+item.aggressive_boots.name=§7Bottes agressif
+item.aggressive_leggings.name=§7Jambières agressif
+item.aggressive_chestplate.name=§7Plastron agressif
+item.aggressive_helmet.name=§7Casque agressif
+
+item.leather_wolf_boots.name=Wolf's Leather Boots
+item.leather_wolf_leggings.name=Wolf's Leather Leggings
+item.leather_wolf_chestplate.name=Wolf's Leather Chestplate
+item.leather_wolf_helmet.name=Wolf's Leather Helmet
+
+item.iron_wolf_boots.name=Wolf's Iron Boots
+item.iron_wolf_leggings.name=Wolf's Iron Leggings
+item.iron_wolf_chestplate.name=Wolf's Iron Chestplate
+item.iron_wolf_helmet.name=Wolf's Iron Helmet
+
+item.gold_wolf_boots.name=Wolf's Gold Boots
+item.gold_wolf_leggings.name=Wolf's Gold Leggings
+item.gold_wolf_chestplate.name=Wolf's Gold Chestplate
+item.gold_wolf_helmet.name=Wolf's Gold Helmet
+
+item.diamond_wolf_boots.name=Wolf's Diamond Boots
+item.diamond_wolf_leggings.name=Wolf's Diamond Leggings
+item.diamond_wolf_chestplate.name=Wolf's Diamond Chestplate
+item.diamond_wolf_helmet.name=Wolf's Diamond Helmet
+
+item.kurayum_wolf_boots.name=§4Wolf's Kurayum Boots
+item.kurayum_wolf_leggings.name=§4Wolf's Kurayum Leggings
+item.kurayum_wolf_chestplate.name=§4Wolf's Kurayum Chestplate
+item.kurayum_wolf_helmet.name=§4Wolf's Kurayum Helmet
+
+ib.page0.title=Livre d'instruction
+ib.line1.p0=Bienvenue !
+ib.line2.p0=merci d'avoir installé mon mod !
+ib.line3.p0=Ce livre va vous aidé
+ib.line4.p0=avec mon mod
+ib.line5.p0= AMUSEZ-VOUS !!!
+
+ib.page1.title=ce mod
+ib.line1.p1=ce mod ajoute un contenu end-game
+ib.line2.p1=les minerais sont meilleurs que 
+ib.line3.p1=le diamant. Il change le PvP 1.9
+ib.line4.p1=par exemple , vous pouvez spam-click
+ib.line5.p1=avec les épées mais ...
+
+ib.page2.title=Armes à feu 1/2
+ib.line1.p2=Elles peuvent être obtenus
+ib.line2.p2=en tuant des chasseurs mais
+ib.line3.p2=ils se défendent. Ou
+ib.line4.p2=en les fabricant avec la 
+ib.line5.p2=machine à armes
+
+ib.page3.title=Armes à feu 2/2
+ib.line1.p3=pour les utiliser. Vous devez
+ib.line2.p3=avoir des balles dans l'inventaire
+ib.line3.p3=ou avoir l'enchantent infinité
+ib.line4.p3=pressez le clic gauche pour viser
+ib.line5.p3=et clic droit pour tirer
+
+ib.page4.title=Armure pour loups
+ib.line1.p4=Elles peuvent être obtenus
+ib.line2.p4=en fusionnant deux mêmes pièces
+ib.line3.p4=d'armures avec le bloc si-dessous
+ib.line4.p4=pour l'équiper . Il faut vous
+ib.line5.p4=baisser+clic droit sur votre loup
+
+ib.page5.title=X-Golem
+ib.line1.p5=pour le faire apparaître,
+ib.line2.p5=vous devez refaire ce patterne.
+ib.line3.p5=Il peut garder les objets
+ib.line4.p5=comme un coffre. Il est plus
+ib.line5.p5=fort qu'un golem de fer
+
+ib.page6.title=Ami Golem
+ib.line1.p6=pour le faire apparaître
+ib.line2.p6=vous devez refaire ce patterne.
+ib.line3.p6=Il a un arbre de compétences
+ib.line4.p6= et peut gagner de l'XP
+ib.line5.p6=
+
+ib.page7.title=Destroyer
+ib.line1.p7=Il est un boss qui peut
+ib.line2.p7=être invoqué avec ce 
+ib.line3.p7=patterne . Il lâche son épée
+ib.line4.p7=mais attention lorsqu'il
+ib.line5.p7=meurt.Ce n'est pas la fin ...
+
+ib.page8.title=Four en argent
+ib.line1.p8=Il peut être très fort si
+ib.line2.p8=l'on place 9 blocs au dessus
+ib.line3.p8=et en dessous de ce bloc
+ib.line4.p8= 
+ib.line5.p8= 

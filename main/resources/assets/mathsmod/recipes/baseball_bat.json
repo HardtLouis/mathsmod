@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+	"#": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "mathsmod:baseball_bat"
+  }
+}

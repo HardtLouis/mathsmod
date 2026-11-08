@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#a#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:wool",
+	  "data": 15
+    },
+	"a": {
+      "item": "minecraft:iron_helmet"
+    }
+  },
+  "result": 
+  {
+    "item": "mathsmod:unknown_helmet"
+  }
+}

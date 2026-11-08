@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "mathsmod:missile_launcher" },
+        "facing=south": { "model": "mathsmod:missile_launcher", "y": 180 },
+        "facing=west":  { "model": "mathsmod:missile_launcher", "y": 270 },
+        "facing=east":  { "model": "mathsmod:missile_launcher", "y": 90 }
+    }
+}

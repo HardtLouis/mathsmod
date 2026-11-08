@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x#x",
+    "xxx"
+  ],
+  "key": {
+    "#": {
+      "item": "mathsmod:thorium_block"
+    },
+	"x": {
+      "item": "mathsmod:kurayum_ingot"
+    }
+  },
+  "result": {
+    "item": "mathsmod:sirojus_portal_frame"
+  }
+}

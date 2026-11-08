@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "mathsmod:items/thermobucket_full"
+    },
+    "overrides": [
+        {
+            "predicate": 
+			{
+                "empty": 1
+            },
+            "model": "mathsmod:item/thermoresistant_bucket_empty"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"guns_modern": "mathsmod:items/guns"
+	},
+	"elements": [
+		{
+			"name": "Cube",
+			"from": [7.4, 6.85, 2.95],
+			"to": [8.6, 7.85, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.25, -0.25, 0]},
+			"faces": {
+				"north": {"uv": [7, 13, 8.2, 14.2], "texture": "#guns_modern"},
+				"east": {"uv": [1, 14, 3.05, 15.2], "texture": "#guns_modern"},
+				"south": {"uv": [5, 13, 6, 14], "texture": "#guns_modern"},
+				"west": {"uv": [1, 12, 3.05, 13.2], "texture": "#guns_modern"},
+				"up": {"uv": [0.95, 14.8, 3, 16], "rotation": 90, "texture": "#guns_modern"},
+				"down": {"uv": [0.95, 13, 3, 14.2], "rotation": 90, "texture": "#guns_modern"}
+			}
+		}
+	]
+}

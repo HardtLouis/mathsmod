@@ -1,0 +1,44 @@
+{
+	"credit": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+	"textures": {
+		"guns_modern": "mathsmod:items/guns_modern"
+	},
+	"elements": [
+		{
+			"name": "Cube",
+			"from": [7.6, 6.3, 11],
+			"to": [8.4, 8.3, 12],
+			"faces": {
+				"north": {"uv": [7, 12, 7.8, 14], "texture": "#guns_modern"},
+				"east": {"uv": [6, 13, 7, 15], "texture": "#guns_modern"},
+				"south": {"uv": [4, 14, 4.8, 16], "texture": "#guns_modern"},
+				"west": {"uv": [5, 14, 6, 16], "texture": "#guns_modern"},
+				"down": {"uv": [4, 13, 4.8, 14], "texture": "#guns_modern"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0.5, 0],
+			"scale": [1.4, 1.4, 1.4]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 2.5, 0]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [30, 45, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"head": {
+			"rotation": [0, 180, 0]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	}
+}

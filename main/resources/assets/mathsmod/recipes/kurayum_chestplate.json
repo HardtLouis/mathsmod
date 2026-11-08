@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+	"###",
+	"###"
+  ],
+  "key": {
+    "#": {
+      "item": "mathsmod:kurayum_ingot"
+    }
+  },
+  "result": {
+    "item": "mathsmod:kurayum_chestplate",
+    "count": 1
+  }
+}

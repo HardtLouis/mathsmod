@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "a#a",
+    "aaa"
+  ],
+  "key": {
+    "#": {
+      "item": "mathsmod:kurayum_ingot"
+    },
+	"a": {
+      "item": "mathsmod:silver_ingot"
+    }
+  },
+  "result": {
+    "item": "mathsmod:charge_shield"
+  }
+}

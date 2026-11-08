@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "mathsmod:frying_pan"
+        },
+        "title": {
+            "translate": "advancements.frying_pan.title"
+        },
+        "description": {
+            "translate": "advancements.frying_pan.description"
+        },
+        "frame": "goal"
+    },
+	"parent": "adventure/kill_a_mob",
+    "criteria": {
+        "frying_pan": {
+            "trigger": "minecraft:frying_pan"
+        }
+    }
+}

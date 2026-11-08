@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i ",
+	"iii",
+	"i#i"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_block"
+    },
+	"i": {
+      "item": "mathsmod:tfosium_ingot"
+    }
+  },
+  "result": {
+    "item": "mathsmod:ultimate_vehicle",
+    "count": 1
+  }
+}

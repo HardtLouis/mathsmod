@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#i#",
+	"ioi",
+	"#i#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+	"o": {
+      "item": "minecraft:gunpowder"
+    },
+	"i": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "mathsmod:fragmentation_grenade",
+    "count": 4
+  }
+}

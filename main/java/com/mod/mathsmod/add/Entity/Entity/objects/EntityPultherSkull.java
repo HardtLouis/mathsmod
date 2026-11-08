@@ -1,0 +1,231 @@
+package com.mod.mathsmod.add.Entity.Entity.objects;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.state.IBlockState;
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.projectile.EntityFireball;
+import net.minecraft.entity.projectile.EntityWitherSkull;
+import net.minecraft.init.MobEffects;
+import net.minecraft.network.datasync.DataParameter;
+import net.minecraft.network.datasync.DataSerializers;
+import net.minecraft.network.datasync.EntityDataManager;
+import net.minecraft.potion.PotionEffect;
+import net.minecraft.util.DamageSource;
+import net.minecraft.util.datafix.DataFixer;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.RayTraceResult;
+import net.minecraft.world.EnumDifficulty;
+import net.minecraft.world.Explosion;
+import net.minecraft.world.World;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
+
+public class EntityPultherSkull extends EntityFireball
+{
+    private static final DataParameter<Boolean> INVULNERABLE = EntityDataManager.<Boolean>createKey(EntityPultherSkull.class, DataSerializers.BOOLEAN);
+    private static final DataParameter<Boolean> PULGON = EntityDataManager.<Boolean>createKey(EntityPultherSkull.class, DataSerializers.BOOLEAN);
+
+    public EntityPultherSkull(World worldIn)
+    {
+        super(worldIn);
+        this.setSize(0.3125F, 0.3125F);
+    }
+
+    public EntityPultherSkull(World worldIn, EntityLivingBase shooter, double accelX, double accelY, double accelZ)
+    {
+        super(worldIn, shooter, accelX, accelY, accelZ);
+        this.setSize(0.3125F, 0.3125F);
+    }
+
+    public static void registerFixesWitherSkull(DataFixer fixer)
+    {
+        EntityFireball.registerFixesFireball(fixer, "WitherSkull");
+    }
+
+    /**
+     * Return the motion factor for this projectile. The factor is multiplied by the original motion.
+     */
+    protected float getMotionFactor()
+    {
+        return this.isInvulnerable() ? 0.73F : super.getMotionFactor();
+    }
+
+    @SideOnly(Side.CLIENT)
+    public EntityPultherSkull(World worldIn, double x, double y, double z, double accelX, double accelY, double accelZ)
+    {
+        super(worldIn, x, y, z, accelX, accelY, accelZ);
+        this.setSize(0.3125F, 0.3125F);
+    }
+
+    /**
+     * Returns true if the entity is on fire. Used by render to add the fire effect on rendering.
+     */
+    public boolean isBurning()
+    {
+        return false;
+    }
+
+    /**
+     * Explosion resistance of a block relative to this entity
+     */
+    public float getExplosionResistance(Explosion explosionIn, World worldIn, BlockPos pos, IBlockState blockStateIn)
+    {
+        float f = super.getExplosionResistance(explosionIn, worldIn, pos, blockStateIn);
+        Block block = blockStateIn.getBlock();
+
+        if (this.isInvulnerable() && block.canEntityDestroy(blockStateIn, worldIn, pos, this) && net.minecraftforge.event.ForgeEventFactory.onEntityDestroyBlock(this.shootingEntity, pos, blockStateIn))
+        {
+            f = Math.min(0.8F, f);
+        }
+
+        return f;
+    }
+
+    /**
+     * Called when this EntityFireball hits a block or entity.
+     */
+    protected void onImpact(RayTraceResult result)
+    {
+        if (!this.world.isRemote)
+        {
+            if (result.entityHit != null)
+            {
+                if (this.shootingEntity != null)
+                {
+                    if (result.entityHit.attackEntityFrom(DamageSource.causeMobDamage(this.shootingEntity), 20.0F))
+                    {
+                        if (result.entityHit.isEntityAlive())
+                        {
+                            this.applyEnchantments(this.shootingEntity, result.entityHit);
+                        }
+                        else
+                        {
+                        	//if(this.shootingEntity instanceof EntityPulgon)
+                            //this.shootingEntity.heal(5.0F);
+                        }
+                    }
+                }
+                else
+                {
+                    result.entityHit.attackEntityFrom(DamageSource.MAGIC, 15.0F);
+                }
+
+                if (result.entityHit instanceof EntityLivingBase)
+                {
+                    int i = 0;
+
+                    if (this.world.getDifficulty() == EnumDifficulty.NORMAL)
+                    {
+                        i = 10;
+                    }
+                    else if (this.world.getDifficulty() == EnumDifficulty.HARD)
+                    {
+                        i = 40;
+                    }
+
+                    if (i > 0)
+                    {
+                        ((EntityLivingBase)result.entityHit).addPotionEffect(new PotionEffect(MobEffects.WITHER, 40 * i, 1));
+                    }
+                }
+            }
+
+            if(this.shootingEntity != null && this.shootingEntity instanceof EntityPlayer) 
+            {
+            	EntityBlackHole entity = new EntityBlackHole(world);
+    			entity.setPosition(this.posX, this.posY, this.posZ);
+    			entity.setSize(0F);
+    			entity.setMaxSize(8F);
+    			entity.attractMultiplier = 4F;
+    			entity.damageMultiplier = 1.3F;
+    			entity.doesntAffectOthers = true;
+    			if(!world.isRemote)
+    			{
+    				world.spawnEntity(entity);
+    			}
+            }
+            if(!this.isFromPulgon())
+            {
+            	EntityFBlackHole entity = new EntityFBlackHole(world);
+    			entity.setPosition(this.posX, this.posY, this.posZ);
+    			entity.setSize(0F);
+    			entity.setMaxSize(6F);
+    			entity.attractMultiplier = 3F;
+    			entity.damageMultiplier = 5F;
+    			if(!world.isRemote)
+    			{
+    				world.spawnEntity(entity);
+    			}
+            }
+            else
+            {
+            	EntityBlackHole entity = new EntityBlackHole(world);
+    			entity.setPosition(this.posX, this.posY, this.posZ);
+    			entity.setSize(0F);
+    			entity.setMaxSize(7F);
+    			entity.attractMultiplier = 4F;
+    			entity.damageMultiplier = 2F;
+    			entity.doesntAffectOthers = true;
+    			if(!world.isRemote)
+    			{
+    				world.spawnEntity(entity);
+    			}
+            }
+            this.setDead();
+        }
+    }
+
+    /**
+     * Returns true if other Entities should be prevented from moving through this Entity.
+     */
+    public boolean canBeCollidedWith()
+    {
+        return false;
+    }
+
+    /**
+     * Called when the entity is attacked.
+     */
+    public boolean attackEntityFrom(DamageSource source, float amount)
+    {
+        return false;
+    }
+
+    protected void entityInit()
+    {
+        this.dataManager.register(INVULNERABLE, Boolean.valueOf(false));
+        this.dataManager.register(PULGON, Boolean.valueOf(false));
+    }
+
+    /**
+     * Return whether this skull comes from an invulnerable (aura) wither boss.
+     */
+    public boolean isInvulnerable()
+    {
+        return ((Boolean)this.dataManager.get(INVULNERABLE)).booleanValue();
+    }
+    
+    public void setInvulnerable(boolean invulnerable)
+    {
+        this.dataManager.set(INVULNERABLE, Boolean.valueOf(invulnerable));
+    }
+    
+    public boolean isFromPulgon()
+    {
+        return ((Boolean)this.dataManager.get(PULGON)).booleanValue();
+    }
+
+    /**
+     * Set whether this skull comes from an invulnerable (aura) wither boss.
+     */
+    public void setFromPulgon(boolean invulnerable)
+    {
+        this.dataManager.set(PULGON, Boolean.valueOf(invulnerable));
+    }
+
+    protected boolean isFireballFiery()
+    {
+        return false;
+    }
+}

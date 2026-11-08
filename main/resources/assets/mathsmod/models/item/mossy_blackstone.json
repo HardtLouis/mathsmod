@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "mathsmod:blocks/black_stone",
+        "top": "mathsmod:blocks/mossy_blackstone_top",
+        "side": "mathsmod:blocks/mossy_blackstone_side"
+    }
+}

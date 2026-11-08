@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "a#a",
+    "aaa"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:ender_pearl"
+    },
+	"a": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "mathsmod:elevator"
+  }
+}

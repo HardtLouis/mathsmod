@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "oox",
+	"oox",
+	"## "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+	"o": {
+      "item": "mathsmod:silver_block"
+    },
+	"x": {
+      "item": "mathsmod:tfosium_ingot"
+    }
+  },
+  "result": {
+    "item": "mathsmod:drilling_machine",
+    "count": 1
+  }
+}

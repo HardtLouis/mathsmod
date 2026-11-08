@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "aaa"
+  ],
+  "key": {
+	"#": {
+      "item": "minecraft:iron_bars"
+    },
+	"a": {
+      "item": "mathsmod:tfosium_ingot"
+    }
+  },
+  "result": {
+    "item": "mathsmod:disguise_kit"
+  }
+}

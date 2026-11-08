@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "mathsmod:wolf_armor_crafter" },
+        "facing=south": { "model": "mathsmod:wolf_armor_crafter", "y": 180 },
+        "facing=west":  { "model": "mathsmod:wolf_armor_crafter", "y": 270 },
+        "facing=east":  { "model": "mathsmod:wolf_armor_crafter", "y": 90 }
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " io",
+	"ioi",
+	"oi "
+  ],
+  "key": {
+	"o": {
+      "item": "minecraft:iron_ingot"
+    },
+	"i": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "mathsmod:chainsaw",
+    "count": 1
+  }
+}

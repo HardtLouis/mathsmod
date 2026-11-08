@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+			"name": "edim",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "mathsmod:edimite_block",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 6
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+			"name": "edim",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "mathsmod:ultra_pearl",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 8
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+			"name": "edim",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "mathsmod:black_hole",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+  ]
+}

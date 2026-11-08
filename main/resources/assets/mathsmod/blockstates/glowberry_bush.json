@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "unready=0": { "model": "mathsmod:glowberry_bush" },
+		"unready=1": { "model": "mathsmod:glowberry_bush_unready" }
+    }
+}

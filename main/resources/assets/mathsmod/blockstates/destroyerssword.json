@@ -1,0 +1,48 @@
+{
+ "forge_marker": 1,
+ "defaults": {
+ "model": "mathsmod:obj/sword.obj"
+ },
+ "variants": {
+ "inventory": [
+ {
+ "transform": {
+ "thirdperson_lefthand": {
+ "rotation": [ { "x": 0 }, { "y": 0 }, { "z": 0 } ],
+ "translation": [ -0.2, 0.2, 0.2 ],
+ "scale": 0.3
+ },
+ "thirdperson_righthand": {
+ "rotation": [ { "x": 0 }, { "y": 0 }, { "z": 0 } ],
+ "translation": [ 0.1, 0.2, 0.2 ],
+ "scale": 0.3
+ },
+ "gui": {
+ "rotation": [ { "x": 30 }, { "y": 0 }, { "z": 45 } ],
+ "translation": [ 0.2, -0.2, -0.3 ],
+ "scale": 0.2
+ },
+ "firstperson_righthand": {
+ "rotation": [ { "x": 0 }, { "y": 0 }, { "z": 0 } ],
+ "translation": [ 1, 0.1, 0 ],
+ "scale": 0.5
+ },
+ "firstperson_lefthand": {
+ "rotation": [ { "x": 0 }, { "y": 0 }, { "z": 0 } ],
+ "translation": [ 0, -0.1, 0 ],
+ "scale": 0.5
+ },
+ "ground": {
+ "rotation": [ { "x": 0 }, { "y": 0 }, { "z": 0 } ],
+ "scale": 0.1
+ },
+ "fixed": {
+ "rotation": [ { "x": 0 }, { "y": 90 }, { "z": 0 } ],
+ "translation": [ 0.1, 0, -0.15 ],
+ "scale": 0.3
+ }
+ }
+ }
+ ]
+ }
+}

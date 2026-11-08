@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+	"v v",
+	"# #"
+  ],
+  "key": {
+    "#": {
+      "item": "mathsmod:thorium_ingot"
+    },
+	"v": {
+      "item": "mathsmod:kurayum_ingot"
+    }
+  },
+  "result": {
+    "item": "mathsmod:thorium_boots",
+    "count": 1
+  }
+}

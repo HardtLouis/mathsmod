@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "b#b",
+    "aua"
+  ],
+  "key": {
+    "#": {
+      "item": "mathsmod:turret"
+    },
+	"a": {
+      "item": "mathsmod:tfosium_block"
+    },
+	"b": {
+      "item": "mathsmod:tfosium_ingot"
+    },
+	"u": {
+      "item": "mathsmod:thorium_ingot"
+    }
+  },
+  "result": {
+    "item": "mathsmod:auto_turret"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#o#",
+    " # "
+  ],
+  "key": {
+	"#": {
+      "item": "minecraft:brick"
+    },
+	"o": {
+      "item": "minecraft:bucket"
+    }
+  },
+  "result": {
+    "item": "mathsmod:thermoresistant_bucket"
+  }
+}

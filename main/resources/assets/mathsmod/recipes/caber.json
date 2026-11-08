@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "o",
+	"#",
+	"#"
+  ],
+  "key": {
+    "#": {
+      "item": "mathsmod:polarite_ingot"
+    },
+	"o": {
+      "item": "minecraft:tnt"
+    }
+  },
+  "result": {
+    "item": "mathsmod:caber",
+    "count": 1
+  }
+}

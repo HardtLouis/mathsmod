@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "check_decay=true,decayable=true": { "model": "mathsmod:frozen_leaves" },
+		"check_decay=true,decayable=false": { "model": "mathsmod:frozen_leaves" },
+		"check_decay=false,decayable=true": { "model": "mathsmod:frozen_leaves" },
+		"check_decay=false,decayable=false": { "model": "mathsmod:frozen_leaves" }
+    }
+}

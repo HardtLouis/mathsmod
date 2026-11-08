@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+	"iai"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:tnt"
+    },
+	"i": {
+      "item": "minecraft:string"
+    },
+	"a": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "mathsmod:explosive_belt",
+    "count": 1
+  }
+}

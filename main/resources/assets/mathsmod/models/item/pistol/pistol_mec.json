@@ -1,0 +1,45 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"guns": "mathsmod:items/guns_modern"
+	},
+	"elements": [
+		{
+			"name": "Cube",
+			"from": [7.975, 7.7, 10.2],
+			"to": [8.025, 8.7, 10.4],
+			"faces": {
+				"north": {"uv": [11, 3, 11.05, 4], "rotation": 180, "texture": "#guns"},
+				"east": {"uv": [8, 0, 8.2, 1], "texture": "#guns"},
+				"south": {"uv": [11, 2, 11.05, 3], "texture": "#guns"},
+				"west": {"uv": [9, 2, 16, 4], "texture": "#guns"},
+				"up": {"uv": [14, 2, 6, 3], "rotation": 90, "texture": "#guns"}
+			}
+		},
+		{
+			"name": "Cube",
+			"from": [7.975, 7.7, 2.9],
+			"to": [8.025, 8.7, 3.1],
+			"faces": {
+				"north": {"uv": [11, 3, 11.05, 4], "rotation": 180, "texture": "#guns"},
+				"east": {"uv": [8, 0, 8.2, 1], "texture": "#guns"},
+				"south": {"uv": [11, 2, 11.05, 3], "texture": "#guns"},
+				"west": {"uv": [9, 2, 16, 4], "texture": "#guns"},
+				"up": {"uv": [14, 2, 6, 3], "rotation": 90, "texture": "#guns"}
+			}
+		},
+		{
+			"name": "Cube",
+			"from": [7.55, 7.5, 2.7],
+			"to": [8.45, 8.5, 10.7],
+			"faces": {
+				"north": {"uv": [11, 3, 11.9, 4], "rotation": 180, "texture": "#guns"},
+				"east": {"uv": [8, 0, 16, 1], "texture": "#guns"},
+				"south": {"uv": [11, 2, 11.9, 3], "texture": "#guns"},
+				"west": {"uv": [9, 2, 16, 4], "texture": "#guns"},
+				"up": {"uv": [14, 2, 6, 3], "rotation": 90, "texture": "#guns"},
+				"down": {"uv": [16, 5, 7, 6], "rotation": 90, "texture": "#guns"}
+			}
+		}
+	]
+}

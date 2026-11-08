@@ -1,0 +1,67 @@
+# Blender MTL File: 'bruh'
+# Material Count: 2
+
+newmtl bruh
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump minecraft:blocks/wool_colored_red
+map_Ka minecraft:blocks/wool_colored_red
+map_Kd minecraft:blocks/wool_colored_red
+
+newmtl herb
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump minecraft:blocks/wool_colored_black
+map_Ka minecraft:blocks/wool_colored_black
+map_Kd minecraft:blocks/wool_colored_black
+
+newmtl golden_herb
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump mathsmod:items/gold_texture
+map_Ka mathsmod:items/gold_texture
+map_Kd mathsmod:items/gold_texture
+
+newmtl polarite_herb
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump mathsmod:items/polarite_texture
+map_Ka mathsmod:items/polarite_texture
+map_Kd mathsmod:items/polarite_texture
+
+newmtl bl_herb
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump mathsmod:items/bl_texture
+map_Ka mathsmod:items/bl_texture
+map_Kd mathsmod:items/bl_texture

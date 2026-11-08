@@ -1,0 +1,32 @@
+{
+	"credit": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+	"parent": "builtin/entity",
+	"gui3d" : false,
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 2, -1.25],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 1.75, -0.75]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 3.5, 0]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [1, 0, 0]
+		},
+		"head": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 1.75, -16.25]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0]
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+	"x x"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+	"x": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "mathsmod:heavy_boots",
+    "count": 1
+  }
+}

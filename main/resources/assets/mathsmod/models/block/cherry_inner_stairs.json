@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "mathsmod:blocks/planks_cherry",
+        "top": "mathsmod:blocks/planks_cherry",
+        "side": "mathsmod:blocks/planks_cherry"
+    }
+}

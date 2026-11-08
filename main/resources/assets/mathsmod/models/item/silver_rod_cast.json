@@ -1,0 +1,6 @@
+{
+    "parent": "item/fishing_rod",
+    "textures": {
+        "layer0": "mathsmod:items/silver_rod_cast"
+    }
+}

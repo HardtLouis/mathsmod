@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  i",
+	"#o ",
+	"## "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+	"o": {
+      "item": "minecraft:redstone"
+    },
+	"i": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mathsmod:projector_changer",
+    "count": 1
+  }
+}

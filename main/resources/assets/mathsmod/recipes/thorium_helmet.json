@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+	"# #",
+	"vvv"
+  ],
+  "key": {
+    "v": {
+      "item": "mathsmod:thorium_ingot"
+    },
+	"#": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "mathsmod:thorium_helmet",
+    "count": 1
+  }
+}

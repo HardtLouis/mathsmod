@@ -1,0 +1,6 @@
+{
+    "parent": "mathsmod:item/big_sword",
+    "textures": {
+        "layer0": "mathsmod:items/chainsaw"
+    }
+}

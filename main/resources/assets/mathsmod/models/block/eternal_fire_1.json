@@ -1,0 +1,7 @@
+{
+    "parent": "block/fire_floor",
+    "textures": {
+        "particle": "mathsmod:blocks/eternal_fire",
+        "fire": "mathsmod:blocks/eternal_fire"
+    }
+}

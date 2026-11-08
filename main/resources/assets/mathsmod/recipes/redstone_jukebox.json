@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+	" # ",
+    "#a#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:redstone"
+    },
+	"a": {
+      "item": "minecraft:jukebox"
+    }
+  },
+  "result": {
+    "item": "mathsmod:redstone_jukebox"
+  }
+}

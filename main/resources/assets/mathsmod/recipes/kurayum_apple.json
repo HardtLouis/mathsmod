@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+	"###",
+    "#a#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mathsmod:kurayum_ingot"
+    },
+	"a": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "item": "mathsmod:kurayum_apple"
+  }
+}

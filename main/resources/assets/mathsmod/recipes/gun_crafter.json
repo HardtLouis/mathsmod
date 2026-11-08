@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+	"oao",
+	"#y#"
+  ],
+  "key": {
+    "#": {
+      "item": "mathsmod:silver_ingot"
+    },
+	"o": {
+      "item": "mathsmod:silver_block"
+    },
+	"a": {
+      "item": "mathsmod:tfosium_block"
+    },
+	"y": {
+      "item": "mathsmod:thorium_ingot"
+    }
+  },
+  "result": {
+    "item": "mathsmod:gun_crafter",
+    "count": 1
+  }
+}

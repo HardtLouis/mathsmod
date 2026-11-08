@@ -1,0 +1,48 @@
+{
+ "forge_marker": 1,
+ "defaults": {
+ "model": "mathsmod:obj/black_hole_frying_pan.obj"
+ },
+ "variants": {
+ "inventory": [
+ {
+ "transform": {
+ "thirdperson_lefthand": {
+ "rotation": [ { "x": 90 }, { "y": 0 }, { "z": 0 } ],
+ "translation": [ -0.1, -0.1, 0.1 ],
+ "scale": 0.04
+ },
+ "thirdperson_righthand": {
+ "rotation": [ { "x": 90 }, { "y": 0 }, { "z": 180 } ],
+ "translation": [ -0.1, -0.1, 0.1 ],
+ "scale": 0.04
+ },
+ "gui": {
+ "rotation": [ { "x": 30 }, { "y": 0 }, { "z": 45 } ],
+ "translation": [ 0.2, -0.2, -0.3 ],
+ "scale": 0.05
+ },
+ "firstperson_righthand": {
+ "rotation": [ { "x": 90 }, { "y": 0 }, { "z": 180 } ],
+ "translation": [ 0.0, -0.1, 0 ],
+ "scale": 0.03
+ },
+ "firstperson_lefthand": {
+ "rotation": [ { "x": 90 }, { "y": 0 }, { "z": 0 } ],
+ "translation": [ 0.0, -0.1, 0 ],
+ "scale": 0.03
+ },
+ "ground": {
+ "rotation": [ { "x": 90 }, { "y": 0 }, { "z": 0 } ],
+ "scale": 0.04
+ },
+ "fixed": {
+ "rotation": [ { "x": 0 }, { "y": 90 }, { "z": 0 } ],
+ "translation": [ 0.1, 0, -0.15 ],
+ "scale": 0.06
+ }
+ }
+ }
+ ]
+ }
+}
